@@ -1,0 +1,54 @@
+{
+  "repository": "satyak4815-dotcom/RA-CEDA",
+  "branch": "main",
+  "created_utc": "2026-10-27T20:12:16.524416+00:00",
+  "purpose": "Backup of compact B/C prompt artifacts and available manifests",
+  "excluded": [
+    "model weights and caches",
+    "credentials",
+    "raw clinical notes and full source summaries"
+  ],
+  "files": [
+    {
+      "filename": "arm_B_compact_prompts.jsonl",
+      "github_path": "output/arm_BC_compact_sensitivity_v1/20261027T201206Z/arm_B_compact_prompts.jsonl",
+      "bytes": 365442,
+      "sha256": "9290a6e2e52eda59cd682e589448a22a21358e1f96c3c4a772074df14581ff77",
+      "url": "https://github.com/satyak4815-dotcom/RA-CEDA/blob/main/output/arm_BC_compact_sensitivity_v1/20261027T201206Z/arm_B_compact_prompts.jsonl",
+      "commit": "a42653fc4a9637ac589d96f56e170eb52bc642d9"
+    },
+    {
+      "filename": "arm_C_compact_prompts.jsonl",
+      "github_path": "output/arm_BC_compact_sensitivity_v1/20261027T201206Z/arm_C_compact_prompts.jsonl",
+      "bytes": 369409,
+      "sha256": "ce4c243d1a98084855439fdb850d7953650b827886dd83958c061f839335ebe1",
+      "url": "https://github.com/satyak4815-dotcom/RA-CEDA/blob/main/output/arm_BC_compact_sensitivity_v1/20261027T201206Z/arm_C_compact_prompts.jsonl",
+      "commit": "461512a025369f9d7a91ebd2a6797d4c60c4a051"
+    },
+    {
+      "filename": "compact_prompt_manifest.json",
+      "github_path": "output/arm_BC_compact_sensitivity_v1/20261027T201206Z/compact_prompt_manifest.json",
+      "bytes": 26946,
+      "sha256": "7737868c55de4ff1b9539d76cb55c88505ea8481334aaac95db9ea22309878f7",
+      "url": "https://github.com/satyak4815-dotcom/RA-CEDA/blob/main/output/arm_BC_compact_sensitivity_v1/20261027T201206Z/compact_prompt_manifest.json",
+      "commit": "8a189a23128dc0996c958976c4274c1f1d248617"
+    },
+    {
+      "filename": "token_length_preflight.json",
+      "github_path": "output/arm_BC_compact_sensitivity_v1/20261027T201206Z/token_length_preflight.json",
+      "bytes": 5444,
+      "sha256": "ef0a7d79acb8a0944488469d31f8f984cbe85e86bfcca260d0de05dbad2a3fbe",
+      "url": "https://github.com/satyak4815-dotcom/RA-CEDA/blob/main/output/arm_BC_compact_sensitivity_v1/20261027T201206Z/token_length_preflight.json",
+      "commit": "b75a4ee6a0f68ed3f61a56f5459946f051ae02b2"
+    },
+    {
+      "filename": "sensitivity_run_manifest.json",
+      "github_path": "output/arm_BC_compact_sensitivity_v1/20261027T201206Z/sensitivity_run_manifest.json",
+      "bytes": 872,
+      "sha256": "e7264d3c80ff0be950dd6e9255233cd57c89c7da48dcd2c89c82b1e93d72c6dd",
+      "url": "https://github.com/satyak4815-dotcom/RA-CEDA/blob/main/output/arm_BC_compact_sensitivity_v1/20261027T201206Z/sensitivity_run_manifest.json",
+      "commit": "19163226b2747800f6e172a669851a7b115c0071"
+    }
+  ],
+  "skipped_missing_optional_files": []
+}
