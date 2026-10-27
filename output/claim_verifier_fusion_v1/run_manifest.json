@@ -1,0 +1,19 @@
+{
+  "stage": "claim_verifier_fusion_v1",
+  "status": "completed",
+  "created_at_utc": "2026-10-27T14:52:27.950187+00:00",
+  "inputs": [
+    "output/claim_verification_gatortron_v1/gatortron_predictions.jsonl",
+    "output/claim_verification_pubmedbert_v1/pubmedbert_predictions.jsonl"
+  ],
+  "claim_rows": 106,
+  "aligned_claim_passage_pairs": 992,
+  "per_passage_verifier_relation_counts": {
+    "agreement": 667,
+    "disagreement": 325
+  },
+  "fusion_method": "Align GatorTron and PubMedBERT predictions by claim identity and passage key; retain each model's labels and available probability scores; record label agreement or disagreement. No probability averaging or support threshold is applied.",
+  "prediction_file": "fused_verifier_signals.jsonl",
+  "prediction_sha256": "40b31a316e7a22213e2cd7fd525949b8c9584004ddcdd7d30147f385c6a311a7",
+  "interpretation_note": "Verifier agreement is not ground truth. Predictions are not calibrated clinical support probabilities and do not establish clinical effectiveness."
+}
