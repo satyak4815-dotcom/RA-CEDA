@@ -1,0 +1,18 @@
+{
+  "stage": "cecs_dependence_v1",
+  "created_utc": "2026-10-27T14:58:59.947326+00:00",
+  "status": "exploratory_pairwise_features",
+  "input": "/kaggle/working/RA_CEDA_V3_2/r1_evidence_dependence_v1/r1_claim_evidence_features.jsonl",
+  "claim_rows": 106,
+  "total_candidate_pairs": 4207,
+  "same_summary_pairs": 2727,
+  "exact_text_match_pairs": 0,
+  "high_lexical_overlap_pairs": 7,
+  "output": "/kaggle/working/RA_CEDA_V3_2/cecs_dependence_v1/cecs_pairwise_dependence_features.jsonl",
+  "sha256": "f89822c7d826f22a6562359e22793ad33611e78cc37a9f9aed382ab76c578921",
+  "limitations": [
+    "Lexical overlap does not establish semantic redundancy.",
+    "Distinct summaries do not guarantee statistical independence.",
+    "No thresholds or claim-support decisions are applied."
+  ]
+}
