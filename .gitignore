@@ -1,0 +1,10 @@
+# Local runtime/model/data exclusions
+*.safetensors
+*.gguf
+pytorch_model*.bin
+model_qwen3_8b_pinned/
+datasets/
+raw_datasets/
+.env
+.env.*
+*token*.txt

@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-10-27T20:05:55.634521+00:00",
+  "stage": "sensitivity_prompt_construction_only",
+  "generation_performed": false,
+  "baseline_rerun": false,
+  "matched_examples": 30,
+  "decomposition_status_counts": {
+    "success": 13,
+    "needs_review": 17
+  },
+  "B_count": 30,
+  "C_count": 30,
+  "review_flagged_examples_retained_with_warnings": 17,
+  "clinical_validity_established": false,
+  "files": {
+    "arm_B_prompts_sensitivity.jsonl": {
+      "bytes": 2178553,
+      "sha256": "a30896031a237e78ade342af323efe2a9433d184788459291a89724792a019b0"
+    },
+    "arm_C_prompts_sensitivity.jsonl": {
+      "bytes": 2210483,
+      "sha256": "bd818b026d2700b35196e9be6e4c13e50794b83453f288d05f0357e19e13ea5f"
+    },
+    "cohort_audit.jsonl": {
+      "bytes": 5852,
+      "sha256": "44dac7e0185ff084ed0129c5cfa4ef1cc39207c9893af0acc8c95df94aebbc61"
+    }
+  }
+}

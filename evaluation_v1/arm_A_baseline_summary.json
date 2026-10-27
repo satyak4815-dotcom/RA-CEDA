@@ -1,0 +1,29 @@
+{
+  "created_utc": "2026-10-27T20:19:23.002464+00:00",
+  "evaluation": "Arm A original recovered baseline",
+  "pilot_examples": 50,
+  "benchmark_records": 962,
+  "gold_matches": 50,
+  "gold_match_exceptions": 0,
+  "baseline_rows": 31,
+  "scorable_rows": 30,
+  "correct": 21,
+  "incorrect": 9,
+  "unscorable_baseline_rows": 1,
+  "accuracy_among_scorable": 0.7,
+  "coverage_of_pilot": 0.6,
+  "correct_over_all_pilot": 0.42,
+  "prediction_distribution": {
+    "E": 9,
+    "A": 5,
+    "D": 5,
+    "C": 5,
+    "B": 6,
+    "UNCERTAIN": 1
+  },
+  "limitations": [
+    "Multiple-choice correctness only; not an independent hallucination evaluation.",
+    "Unscorable predictions are not counted as incorrect.",
+    "This is the original recovered baseline, not a rerun."
+  ]
+}

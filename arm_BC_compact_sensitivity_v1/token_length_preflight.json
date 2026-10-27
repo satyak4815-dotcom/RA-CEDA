@@ -1,0 +1,247 @@
+{
+  "model_id": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "max_input_tokens": 8192,
+  "records": [
+    {
+      "example_id": "EHRNQ_0048",
+      "B_tokens": 16672,
+      "C_tokens": 17153,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    },
+    {
+      "example_id": "EHRNQ_0052",
+      "B_tokens": 11809,
+      "C_tokens": 12070,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    },
+    {
+      "example_id": "EHRNQ_0103",
+      "B_tokens": 5417,
+      "C_tokens": 5589,
+      "B_over_limit": false,
+      "C_over_limit": false,
+      "both_fit": true
+    },
+    {
+      "example_id": "EHRNQ_0169",
+      "B_tokens": 14236,
+      "C_tokens": 14571,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    },
+    {
+      "example_id": "EHRNQ_0194",
+      "B_tokens": 14386,
+      "C_tokens": 14648,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    },
+    {
+      "example_id": "EHRNQ_0246",
+      "B_tokens": 4452,
+      "C_tokens": 4607,
+      "B_over_limit": false,
+      "C_over_limit": false,
+      "both_fit": true
+    },
+    {
+      "example_id": "EHRNQ_0308",
+      "B_tokens": 13069,
+      "C_tokens": 13300,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    },
+    {
+      "example_id": "EHRNQ_0357",
+      "B_tokens": 17679,
+      "C_tokens": 18275,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    },
+    {
+      "example_id": "EHRNQ_0409",
+      "B_tokens": 5779,
+      "C_tokens": 5934,
+      "B_over_limit": false,
+      "C_over_limit": false,
+      "both_fit": true
+    },
+    {
+      "example_id": "EHRNQ_0451",
+      "B_tokens": 26160,
+      "C_tokens": 26829,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    },
+    {
+      "example_id": "EHRNQ_0456",
+      "B_tokens": 14353,
+      "C_tokens": 14584,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    },
+    {
+      "example_id": "EHRNQ_0490",
+      "B_tokens": 10659,
+      "C_tokens": 10921,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    },
+    {
+      "example_id": "EHRNQ_0495",
+      "B_tokens": 14696,
+      "C_tokens": 15323,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    },
+    {
+      "example_id": "EHRNQ_0516",
+      "B_tokens": 8731,
+      "C_tokens": 8917,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    },
+    {
+      "example_id": "EHRNQ_0546",
+      "B_tokens": 12603,
+      "C_tokens": 12980,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    },
+    {
+      "example_id": "EHRNQ_0559",
+      "B_tokens": 13259,
+      "C_tokens": 13490,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    },
+    {
+      "example_id": "EHRNQ_0573",
+      "B_tokens": 17869,
+      "C_tokens": 18246,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    },
+    {
+      "example_id": "EHRNQ_0584",
+      "B_tokens": 6054,
+      "C_tokens": 6209,
+      "B_over_limit": false,
+      "C_over_limit": false,
+      "both_fit": true
+    },
+    {
+      "example_id": "EHRNQ_0597",
+      "B_tokens": 10062,
+      "C_tokens": 10218,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    },
+    {
+      "example_id": "EHRNQ_0640",
+      "B_tokens": 8813,
+      "C_tokens": 9044,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    },
+    {
+      "example_id": "EHRNQ_0659",
+      "B_tokens": 9438,
+      "C_tokens": 9669,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    },
+    {
+      "example_id": "EHRNQ_0663",
+      "B_tokens": 10442,
+      "C_tokens": 10598,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    },
+    {
+      "example_id": "EHRNQ_0667",
+      "B_tokens": 24181,
+      "C_tokens": 24558,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    },
+    {
+      "example_id": "EHRNQ_0838",
+      "B_tokens": 17303,
+      "C_tokens": 17596,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    },
+    {
+      "example_id": "EHRNQ_0855",
+      "B_tokens": 19726,
+      "C_tokens": 20164,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    },
+    {
+      "example_id": "EHRNQ_0883",
+      "B_tokens": 13507,
+      "C_tokens": 13786,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    },
+    {
+      "example_id": "EHRNQ_0910",
+      "B_tokens": 26299,
+      "C_tokens": 27615,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    },
+    {
+      "example_id": "EHRNQ_0950",
+      "B_tokens": 19700,
+      "C_tokens": 20066,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    },
+    {
+      "example_id": "EHRNQ_0956",
+      "B_tokens": 20792,
+      "C_tokens": 21085,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    },
+    {
+      "example_id": "EHRNQ_0961",
+      "B_tokens": 10238,
+      "C_tokens": 10427,
+      "B_over_limit": true,
+      "C_over_limit": true,
+      "both_fit": false
+    }
+  ]
+}
