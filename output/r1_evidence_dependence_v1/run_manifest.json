@@ -1,0 +1,21 @@
+{
+  "stage": "r1_evidence_dependence_v1",
+  "created_utc": "2026-10-27T14:57:30.846745+00:00",
+  "status": "exploratory_feature_table",
+  "inputs": {
+    "fusion": "/kaggle/working/RA_CEDA_V3_2/claim_verifier_fusion_v1/fused_verifier_signals.jsonl",
+    "medcpt": "/kaggle/working/RA_CEDA_V3_2/evidence_retrieval_v1/medcpt_reranked_top10.jsonl",
+    "claim_decomposition": "/kaggle/working/RA_CEDA_V3_2/mistral_claim_decomposition_v1/claim_decompositions_normalized_review.jsonl"
+  },
+  "claim_rows": 106,
+  "missing_medcpt_matches": 0,
+  "missing_decomposition_matches": 0,
+  "output": "/kaggle/working/RA_CEDA_V3_2/r1_evidence_dependence_v1/r1_claim_evidence_features.jsonl",
+  "sha256": "fe2e1f1a0683f2461e45138f6cd11404324a25c66fc1987e3e80b2c4211012c1",
+  "important_limitations": [
+    "Risk flags are descriptive, not calibrated thresholds.",
+    "Verifier agreement does not establish truth.",
+    "MedCPT relevance scores are not support probabilities.",
+    "Same-summary provenance is a dependence warning, not proof that two chunks overlap."
+  ]
+}
