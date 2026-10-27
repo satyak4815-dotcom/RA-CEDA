@@ -1,0 +1,22 @@
+{
+  "stage": "evidence_retrieval_v1",
+  "status": "completed",
+  "created_utc": "2026-10-27T14:26:05.910144+00:00",
+  "input": {
+    "file": "bm25_top10_candidates.jsonl",
+    "sha256": "084d5c5d44523767f5cba76da9b72eadadc913166982da51e260090a1243f1c7",
+    "rows": 106
+  },
+  "reranking": {
+    "method": "BM25 candidate retrieval followed by MedCPT cross-encoder reranking",
+    "model_id": "ncbi/MedCPT-Cross-Encoder",
+    "model_revision": "71caf65d4927987813984f54c284405a13fcca49",
+    "max_length": 512,
+    "batch_size": 16,
+    "candidate_pairs_scored": 992,
+    "output_rows": 106,
+    "output_sha256": "6cc226c1bc7c6237414cc0c39ddec308f35bdadeec8eaba0e37cb5151bec350d",
+    "output_file": "medcpt_reranked_top10.jsonl"
+  },
+  "interpretation_note": "MedCPT scores are relevance-ranking signals, not probabilities of claim support or clinical correctness. Evidence verification remains a separate stage."
+}
