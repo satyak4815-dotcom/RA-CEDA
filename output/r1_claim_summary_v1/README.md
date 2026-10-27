@@ -1,14 +1,8 @@
-# R1 Claim-Level Summary
+# RA-CEDA v3.2 — R1 Claim-Level Summary
 
-Exploratory claim-level summary combining:
-- GatorTron and PubMedBERT verifier signals
-- MedCPT retrieval relevance
-- Source-summary provenance and pairwise dependence features
+Development-stage claim-level summary derived from the existing R1 evidence features and CECS pairwise dependence artifacts.
 
-Claim rows: 106
-Missing CECS matches: 0
-Missing MedCPT matches: 0
-
-No composite risk score, calibrated threshold, final support label, or clinical
-effectiveness claim is produced. Verifier outputs and retrieval scores are
-signals, not ground truth.
+- Contains 106 claim rows.
+- This is an intermediate audit artifact, not a clinical effectiveness result.
+- Automated support and dependence features are not ground truth.
+- Original upstream evidence artifacts are retained separately.
