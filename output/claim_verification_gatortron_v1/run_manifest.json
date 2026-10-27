@@ -1,0 +1,26 @@
+{
+  "stage": "claim_verification_gatortron_v1",
+  "status": "completed",
+  "created_utc": "2026-10-27T14:35:58.293883+00:00",
+  "input_claim_rows": 106,
+  "claim_passage_pairs_scored": 992,
+  "elapsed_seconds": 30.0,
+  "model_path_in_kaggle": "/kaggle/input/models/satyakrishnasingh/gatortron-finetuned/transformers/default/1",
+  "model_base": "UFNLP/gatortron-base",
+  "max_length": 128,
+  "pair_order": "evidence_passage_then_claim",
+  "pair_order_note": "Standard NLI premise-hypothesis order was used. Confirm against the fine-tuning preprocessing format before confirmatory evaluation.",
+  "label_mapping": {
+    "0": "entailment",
+    "1": "neutral",
+    "2": "contradiction"
+  },
+  "development_metrics_from_training_report": {
+    "dev_size": 1395,
+    "accuracy": 0.9017921146953405,
+    "macro_f1": 0.9020722368632009,
+    "test_split_used_for_training_or_selection": false
+  },
+  "prediction_sha256": "a653c05eb38f9b92c45bec54ec0069785b9ee37cb9b6de7a2384f514314defdf",
+  "interpretation_note": "Classifier outputs are not ground truth or necessarily calibrated probabilities of clinical truth. Retrieval relevance and NLI labels must not be treated as proof of clinical support."
+}
