@@ -1,0 +1,20 @@
+{
+  "stage": "claim_verification_pubmedbert_v1",
+  "status": "completed",
+  "model_id": "pritamdeka/PubMedBERT-MNLI-MedNLI",
+  "label_mapping": {
+    "0": "contradiction",
+    "1": "entailment",
+    "2": "neutral"
+  },
+  "input_file": "output/evidence_retrieval_v1/medcpt_reranked_top10.jsonl",
+  "input_order": "evidence passage as premise; claim as hypothesis",
+  "max_length": 256,
+  "batch_size": 8,
+  "claim_rows_processed": 106,
+  "claim_passage_pairs_scored": 992,
+  "prediction_file": "pubmedbert_predictions.jsonl",
+  "prediction_sha256": "b632cb06c39bf54939443d86daa951109284192c0969b649bdace0a023c9f149",
+  "created_at_utc": "2026-10-27T14:44:25.836691+00:00",
+  "interpretation_note": "NLI predictions are model signals, not clinical ground truth or calibrated clinical support probabilities."
+}
