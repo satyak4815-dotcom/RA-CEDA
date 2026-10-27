@@ -1,0 +1,823 @@
+{
+  "model_id": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "max_input_tokens": 8192,
+  "max_evidence_per_claim": 2,
+  "max_evidence_chars": 900,
+  "examples": [
+    {
+      "example_id": "EHRNQ_0048",
+      "status": "ready",
+      "B_tokens": 5636,
+      "C_tokens": 5818,
+      "B_prompt_sha256": "490e44bc3e293f9082b3598a2de1359420bb8a50a4945aefef575bf31c0c5c7f",
+      "C_prompt_sha256": "8b888ddd2cb6fda86fd36f72a816893c0ac3b3d1135cd87f181a9da77ae9a3fd",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0048::EHRNQ_0048_S2::chunk4",
+          "EHRNQ_0048::EHRNQ_0048_S2::chunk1"
+        ],
+        "C002": [
+          "EHRNQ_0048::EHRNQ_0048_S2::chunk4",
+          "EHRNQ_0048::EHRNQ_0048_S2::chunk1"
+        ],
+        "C003": [
+          "EHRNQ_0048::EHRNQ_0048_S2::chunk4",
+          "EHRNQ_0048::EHRNQ_0048_S2::chunk5"
+        ],
+        "C004": [
+          "EHRNQ_0048::EHRNQ_0048_S2::chunk5",
+          "EHRNQ_0048::EHRNQ_0048_S2::chunk1"
+        ],
+        "C005": [
+          "EHRNQ_0048::EHRNQ_0048_S2::chunk5",
+          "EHRNQ_0048::EHRNQ_0048_S2::chunk6"
+        ]
+      },
+      "decomposition_status": "success",
+      "decomposition_validation_issues": []
+    },
+    {
+      "example_id": "EHRNQ_0052",
+      "status": "ready",
+      "B_tokens": 3368,
+      "C_tokens": 3456,
+      "B_prompt_sha256": "59789cb17e12565dbe2c89458d385ade29e261d9dda19b65ffcd7676ab65f834",
+      "C_prompt_sha256": "8fd3d0f7cd9bca703cc478e5094eb0f8e6590ef253c51c99f53ca1d7d4dfe220",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0052::EHRNQ_0052_S1::chunk4",
+          "EHRNQ_0052::EHRNQ_0052_S2::chunk4"
+        ],
+        "C002": [
+          "EHRNQ_0052::EHRNQ_0052_S1::chunk1",
+          "EHRNQ_0052::EHRNQ_0052_S1::chunk4"
+        ],
+        "C003": [
+          "EHRNQ_0052::EHRNQ_0052_S1::chunk1",
+          "EHRNQ_0052::EHRNQ_0052_S1::chunk3"
+        ]
+      },
+      "decomposition_status": "needs_review",
+      "decomposition_validation_issues": [
+        "relation_phrase_review:causal_or_explanatory"
+      ]
+    },
+    {
+      "example_id": "EHRNQ_0103",
+      "status": "ready",
+      "B_tokens": 1284,
+      "C_tokens": 1335,
+      "B_prompt_sha256": "3c90ea62c38ef1354e6c15565082be44b4df19dbe1b5799145198ffe0e16d5d6",
+      "C_prompt_sha256": "31b8e1f4ced48b8eb2f959645424115902caad1f6938f4a2621b25f8565eee1b",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0103::EHRNQ_0103_S1::chunk1",
+          "EHRNQ_0103::EHRNQ_0103_S2::chunk1"
+        ]
+      },
+      "decomposition_status": "success",
+      "decomposition_validation_issues": []
+    },
+    {
+      "example_id": "EHRNQ_0169",
+      "status": "ready",
+      "B_tokens": 4171,
+      "C_tokens": 4291,
+      "B_prompt_sha256": "296cf5b7d34e5c407059b4421dc6fb4890ab96e978c88949c88f78f711c2d589",
+      "C_prompt_sha256": "16f46801100a3e8b0d5efdf0741320eb0aa2147695a32a256f4791bbf888d1bd",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0169::EHRNQ_0169_S1::chunk1",
+          "EHRNQ_0169::EHRNQ_0169_S2::chunk1"
+        ],
+        "C002": [
+          "EHRNQ_0169::EHRNQ_0169_S1::chunk1",
+          "EHRNQ_0169::EHRNQ_0169_S2::chunk1"
+        ],
+        "C003": [
+          "EHRNQ_0169::EHRNQ_0169_S2::chunk1",
+          "EHRNQ_0169::EHRNQ_0169_S1::chunk5"
+        ],
+        "C004": [
+          "EHRNQ_0169::EHRNQ_0169_S2::chunk1",
+          "EHRNQ_0169::EHRNQ_0169_S1::chunk3"
+        ]
+      },
+      "decomposition_status": "needs_review",
+      "decomposition_validation_issues": [
+        "claim_1_invalid_type",
+        "claim_2_source_not_exact_substring",
+        "claim_2_invalid_type",
+        "claim_3_source_not_exact_substring",
+        "claim_3_invalid_type",
+        "relation_phrase_review:causal_or_explanatory"
+      ]
+    },
+    {
+      "example_id": "EHRNQ_0194",
+      "status": "ready",
+      "B_tokens": 4617,
+      "C_tokens": 4706,
+      "B_prompt_sha256": "37d4e101fc89b80fedf00fdec62f8fec79a030906f4f71c0e067d0bba0523d49",
+      "C_prompt_sha256": "dcab6879b793e705cb0a37eedc6352125266f94d14bc2e49cb9b9a99b2d96fb7",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0194::EHRNQ_0194_S2::chunk1",
+          "EHRNQ_0194::EHRNQ_0194_S2::chunk3"
+        ],
+        "C002": [
+          "EHRNQ_0194::EHRNQ_0194_S2::chunk3",
+          "EHRNQ_0194::EHRNQ_0194_S2::chunk2"
+        ],
+        "C003": [
+          "EHRNQ_0194::EHRNQ_0194_S2::chunk2",
+          "EHRNQ_0194::EHRNQ_0194_S2::chunk3"
+        ],
+        "C004": [
+          "EHRNQ_0194::EHRNQ_0194_S2::chunk3",
+          "EHRNQ_0194::EHRNQ_0194_S1::chunk1"
+        ]
+      },
+      "decomposition_status": "needs_review",
+      "decomposition_validation_issues": [
+        "claim_1_invalid_type"
+      ]
+    },
+    {
+      "example_id": "EHRNQ_0246",
+      "status": "ready",
+      "B_tokens": 1408,
+      "C_tokens": 1443,
+      "B_prompt_sha256": "6c7dcecde6d6b2ff5ef6af4e3584b39a8ee5d0fd3327206fa6e09deddd84f266",
+      "C_prompt_sha256": "ca892484717368eccd3b19d9f856095dec10a384e5dc1195bedd59f60abd0064",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0246::EHRNQ_0246_S1::chunk4",
+          "EHRNQ_0246::EHRNQ_0246_S1::chunk1"
+        ]
+      },
+      "decomposition_status": "success",
+      "decomposition_validation_issues": []
+    },
+    {
+      "example_id": "EHRNQ_0308",
+      "status": "ready",
+      "B_tokens": 3858,
+      "C_tokens": 3918,
+      "B_prompt_sha256": "c5068c95c6af4288aa26a23400e2be5294de9ab447ae0a58832f108398f723a7",
+      "C_prompt_sha256": "c2543513a3cac5ee6adda16581d72c6d18fc63eacce6f3d9de25413745954044",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0308::EHRNQ_0308_S1::chunk4",
+          "EHRNQ_0308::EHRNQ_0308_S1::chunk3"
+        ],
+        "C002": [
+          "EHRNQ_0308::EHRNQ_0308_S1::chunk6",
+          "EHRNQ_0308::EHRNQ_0308_S1::chunk1"
+        ],
+        "C003": [
+          "EHRNQ_0308::EHRNQ_0308_S1::chunk6",
+          "EHRNQ_0308::EHRNQ_0308_S1::chunk4"
+        ]
+      },
+      "decomposition_status": "needs_review",
+      "decomposition_validation_issues": [
+        "claim_2_source_not_exact_substring"
+      ]
+    },
+    {
+      "example_id": "EHRNQ_0357",
+      "status": "ready",
+      "B_tokens": 5229,
+      "C_tokens": 5444,
+      "B_prompt_sha256": "cba669add1d3e00223d1b2cce26a708c8e4ecb64fc8798eecb3083fcea77a7f7",
+      "C_prompt_sha256": "9ea190f0600cdf438092fc05284056c047ccb3a43f2264a92eca658c0d111ceb",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0357::EHRNQ_0357_S1::chunk6",
+          "EHRNQ_0357::EHRNQ_0357_S1::chunk7"
+        ],
+        "C002": [
+          "EHRNQ_0357::EHRNQ_0357_S1::chunk7",
+          "EHRNQ_0357::EHRNQ_0357_S1::chunk8"
+        ],
+        "C003": [
+          "EHRNQ_0357::EHRNQ_0357_S1::chunk7",
+          "EHRNQ_0357::EHRNQ_0357_S1::chunk2"
+        ],
+        "C004": [
+          "EHRNQ_0357::EHRNQ_0357_S1::chunk7",
+          "EHRNQ_0357::EHRNQ_0357_S1::chunk6"
+        ],
+        "C005": [
+          "EHRNQ_0357::EHRNQ_0357_S1::chunk7",
+          "EHRNQ_0357::EHRNQ_0357_S1::chunk6"
+        ]
+      },
+      "decomposition_status": "needs_review",
+      "decomposition_validation_issues": [
+        "claim_2_invalid_type",
+        "relation_phrase_review:temporal"
+      ]
+    },
+    {
+      "example_id": "EHRNQ_0409",
+      "status": "ready",
+      "B_tokens": 1391,
+      "C_tokens": 1426,
+      "B_prompt_sha256": "16697cfdb9a2a44a4a5c32231e7b88b1fc90e654184d1bfe13727f4a1ba3711f",
+      "C_prompt_sha256": "f9959ef83053c4ae3dd865d9fac85c02343dc0dc42c379b455c7c1349f292435",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0409::EHRNQ_0409_S1::chunk4",
+          "EHRNQ_0409::EHRNQ_0409_S1::chunk2"
+        ]
+      },
+      "decomposition_status": "success",
+      "decomposition_validation_issues": []
+    },
+    {
+      "example_id": "EHRNQ_0451",
+      "status": "ready",
+      "B_tokens": 4472,
+      "C_tokens": 4718,
+      "B_prompt_sha256": "c71fd39f7ca0bd5de94c5ece64ba6e83a0a0545f67f781ea8170e646e9d4dd7a",
+      "C_prompt_sha256": "388dc42cb5fbbb97402622bc88216426b80677a4f9353c9f69d6a1a7ac7d89b9",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0451::EHRNQ_0451_S1::chunk4"
+        ],
+        "C002": [
+          "EHRNQ_0451::EHRNQ_0451_S1::chunk4"
+        ],
+        "C003": [
+          "EHRNQ_0451::EHRNQ_0451_S1::chunk4"
+        ],
+        "C004": [
+          "EHRNQ_0451::EHRNQ_0451_S1::chunk5"
+        ],
+        "C005": [
+          "EHRNQ_0451::EHRNQ_0451_S1::chunk5"
+        ],
+        "C006": [
+          "EHRNQ_0451::EHRNQ_0451_S1::chunk8"
+        ],
+        "C007": [
+          "EHRNQ_0451::EHRNQ_0451_S1::chunk8"
+        ],
+        "C008": [
+          "EHRNQ_0451::EHRNQ_0451_S1::chunk8"
+        ]
+      },
+      "decomposition_status": "success",
+      "decomposition_validation_issues": []
+    },
+    {
+      "example_id": "EHRNQ_0456",
+      "status": "ready",
+      "B_tokens": 4129,
+      "C_tokens": 4189,
+      "B_prompt_sha256": "5fd3d010d01ca8f0a2c5897c22601580ec8323ad28ba078b168287e4f695bd36",
+      "C_prompt_sha256": "a85e2d10b1646c3333383650f5c031baf587d93e2fd6d93fad88fcf1dc6510c7",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0456::EHRNQ_0456_S1::chunk5",
+          "EHRNQ_0456::EHRNQ_0456_S1::chunk4"
+        ],
+        "C002": [
+          "EHRNQ_0456::EHRNQ_0456_S1::chunk4",
+          "EHRNQ_0456::EHRNQ_0456_S1::chunk3"
+        ],
+        "C003": [
+          "EHRNQ_0456::EHRNQ_0456_S1::chunk9",
+          "EHRNQ_0456::EHRNQ_0456_S1::chunk10"
+        ],
+        "C004": [
+          "EHRNQ_0456::EHRNQ_0456_S1::chunk9",
+          "EHRNQ_0456::EHRNQ_0456_S1::chunk8"
+        ]
+      },
+      "decomposition_status": "needs_review",
+      "decomposition_validation_issues": [
+        "claim_2_source_not_exact_substring",
+        "claim_3_source_not_exact_substring"
+      ]
+    },
+    {
+      "example_id": "EHRNQ_0490",
+      "status": "ready",
+      "B_tokens": 3175,
+      "C_tokens": 3264,
+      "B_prompt_sha256": "f13db4754452be7cec26d8d8c4c8d90edd933010ab58955a6825b3ee5dd4c27d",
+      "C_prompt_sha256": "a02e2a456e072e6f88106c320c278312724925f28ba6da70bbd01738cf17014c",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0490::EHRNQ_0490_S2::chunk1",
+          "EHRNQ_0490::EHRNQ_0490_S2::chunk3"
+        ],
+        "C002": [
+          "EHRNQ_0490::EHRNQ_0490_S2::chunk1",
+          "EHRNQ_0490::EHRNQ_0490_S1::chunk1"
+        ],
+        "C003": [
+          "EHRNQ_0490::EHRNQ_0490_S1::chunk1",
+          "EHRNQ_0490::EHRNQ_0490_S2::chunk2"
+        ]
+      },
+      "decomposition_status": "success",
+      "decomposition_validation_issues": []
+    },
+    {
+      "example_id": "EHRNQ_0495",
+      "status": "ready",
+      "B_tokens": 4848,
+      "C_tokens": 5092,
+      "B_prompt_sha256": "5cc47ceadf7fb8dbe7a906f373c5e7453ef7bd604da722ec9054b4bea4a53a04",
+      "C_prompt_sha256": "722cbafb428540d01b0429c9eadc0f5be82a5f6fb39e9bfa68a81a37e560404a",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0495::EHRNQ_0495_S2::chunk2",
+          "EHRNQ_0495::EHRNQ_0495_S2::chunk1"
+        ],
+        "C002": [
+          "EHRNQ_0495::EHRNQ_0495_S2::chunk2",
+          "EHRNQ_0495::EHRNQ_0495_S1::chunk3"
+        ],
+        "C003": [
+          "EHRNQ_0495::EHRNQ_0495_S2::chunk2",
+          "EHRNQ_0495::EHRNQ_0495_S1::chunk3"
+        ],
+        "C004": [
+          "EHRNQ_0495::EHRNQ_0495_S2::chunk2",
+          "EHRNQ_0495::EHRNQ_0495_S2::chunk1"
+        ]
+      },
+      "decomposition_status": "needs_review",
+      "decomposition_validation_issues": [
+        "claim_0_source_not_exact_substring",
+        "claim_2_invalid_type"
+      ]
+    },
+    {
+      "example_id": "EHRNQ_0516",
+      "status": "ready",
+      "B_tokens": 2329,
+      "C_tokens": 2393,
+      "B_prompt_sha256": "6d17807d3a7e9296d48f055bb981e1056d5f70ebd5c70177ef799ab91281a5bd",
+      "C_prompt_sha256": "ae5d283d063913c38e59c776fcf5ac179bc1b82485360e2c721d7ceb98500ae1",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0516::EHRNQ_0516_S2::chunk1",
+          "EHRNQ_0516::EHRNQ_0516_S2::chunk4"
+        ],
+        "C002": [
+          "EHRNQ_0516::EHRNQ_0516_S1::chunk4",
+          "EHRNQ_0516::EHRNQ_0516_S2::chunk2"
+        ]
+      },
+      "decomposition_status": "success",
+      "decomposition_validation_issues": []
+    },
+    {
+      "example_id": "EHRNQ_0546",
+      "status": "ready",
+      "B_tokens": 3583,
+      "C_tokens": 3705,
+      "B_prompt_sha256": "5e77d2dc9f72c84756625f1437f1e9b941d389a8e41f2a6cb18bdf0cf3bcdc02",
+      "C_prompt_sha256": "ffd78a91b85b62a6a30f9c4acc8e97e34c3cc370a743992cf3125abb3c2f6aae",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0546::EHRNQ_0546_S1::chunk7",
+          "EHRNQ_0546::EHRNQ_0546_S1::chunk5"
+        ],
+        "C002": [
+          "EHRNQ_0546::EHRNQ_0546_S1::chunk7",
+          "EHRNQ_0546::EHRNQ_0546_S1::chunk1"
+        ],
+        "C003": [
+          "EHRNQ_0546::EHRNQ_0546_S1::chunk7",
+          "EHRNQ_0546::EHRNQ_0546_S1::chunk6"
+        ]
+      },
+      "decomposition_status": "success",
+      "decomposition_validation_issues": []
+    },
+    {
+      "example_id": "EHRNQ_0559",
+      "status": "ready",
+      "B_tokens": 3448,
+      "C_tokens": 3508,
+      "B_prompt_sha256": "38fd47a41d9a3abf67453910510eb4dc602e6b6999ccb381249ab8359b8f1903",
+      "C_prompt_sha256": "88b4718dcdc458155a2a6138c1059c597c9b36674b2f96a79f7af0a6b8fe85ea",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0559::EHRNQ_0559_S1::chunk11",
+          "EHRNQ_0559::EHRNQ_0559_S1::chunk7"
+        ],
+        "C002": [
+          "EHRNQ_0559::EHRNQ_0559_S1::chunk10",
+          "EHRNQ_0559::EHRNQ_0559_S1::chunk11"
+        ],
+        "C003": [
+          "EHRNQ_0559::EHRNQ_0559_S1::chunk10",
+          "EHRNQ_0559::EHRNQ_0559_S1::chunk11"
+        ]
+      },
+      "decomposition_status": "needs_review",
+      "decomposition_validation_issues": [
+        "claim_1_source_not_exact_substring"
+      ]
+    },
+    {
+      "example_id": "EHRNQ_0573",
+      "status": "ready",
+      "B_tokens": 5012,
+      "C_tokens": 5134,
+      "B_prompt_sha256": "6b5fa9c0cff029672966de4aa8e842a87af0ac089b2fe88b17bef009688c5fde",
+      "C_prompt_sha256": "60c1d69e136ec9b84803611d61048162519e97d1b3605695e044b2fbc453d6a8",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0573::EHRNQ_0573_S1::chunk11",
+          "EHRNQ_0573::EHRNQ_0573_S1::chunk9"
+        ],
+        "C002": [
+          "EHRNQ_0573::EHRNQ_0573_S1::chunk11",
+          "EHRNQ_0573::EHRNQ_0573_S1::chunk12"
+        ],
+        "C003": [
+          "EHRNQ_0573::EHRNQ_0573_S1::chunk11",
+          "EHRNQ_0573::EHRNQ_0573_S1::chunk12"
+        ],
+        "C004": [
+          "EHRNQ_0573::EHRNQ_0573_S1::chunk10",
+          "EHRNQ_0573::EHRNQ_0573_S1::chunk11"
+        ]
+      },
+      "decomposition_status": "success",
+      "decomposition_validation_issues": []
+    },
+    {
+      "example_id": "EHRNQ_0584",
+      "status": "ready",
+      "B_tokens": 1301,
+      "C_tokens": 1336,
+      "B_prompt_sha256": "2762635a0e4fc667b146ae3d1a3b7d7f7fe55df793eabdf0cbecccff74bfc71e",
+      "C_prompt_sha256": "a9d95a5afbf8e7195aa783503dbc54118dd0283e7908fdc0177b01d623500b88",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0584::EHRNQ_0584_S1::chunk5",
+          "EHRNQ_0584::EHRNQ_0584_S1::chunk1"
+        ]
+      },
+      "decomposition_status": "success",
+      "decomposition_validation_issues": []
+    },
+    {
+      "example_id": "EHRNQ_0597",
+      "status": "ready",
+      "B_tokens": 2221,
+      "C_tokens": 2257,
+      "B_prompt_sha256": "0da281aa945290bdf691b7ccf244634075462e4d78b1034372d61f6a92bd4eaf",
+      "C_prompt_sha256": "558ca368d4ca70786d0a52bf1b18a0ce3faa22b5430d14e9d85c083a601ee738",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0597::EHRNQ_0597_S1::chunk10",
+          "EHRNQ_0597::EHRNQ_0597_S1::chunk7"
+        ],
+        "C002": [
+          "EHRNQ_0597::EHRNQ_0597_S1::chunk1",
+          "EHRNQ_0597::EHRNQ_0597_S1::chunk10"
+        ]
+      },
+      "decomposition_status": "success",
+      "decomposition_validation_issues": []
+    },
+    {
+      "example_id": "EHRNQ_0640",
+      "status": "ready",
+      "B_tokens": 1877,
+      "C_tokens": 1937,
+      "B_prompt_sha256": "575f847aa1d62f1c8ef4384c5a61cdc3987fe3a2299b3ae8fefc50f7004d0f92",
+      "C_prompt_sha256": "87fb8ef0c81318686e53e73db25c04d28ce9c0686948e199a533b1ee76745168",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0640::EHRNQ_0640_S1::chunk1",
+          "EHRNQ_0640::EHRNQ_0640_S1::chunk10"
+        ],
+        "C002": [
+          "EHRNQ_0640::EHRNQ_0640_S1::chunk1",
+          "EHRNQ_0640::EHRNQ_0640_S1::chunk10"
+        ]
+      },
+      "decomposition_status": "success",
+      "decomposition_validation_issues": []
+    },
+    {
+      "example_id": "EHRNQ_0659",
+      "status": "ready",
+      "B_tokens": 2309,
+      "C_tokens": 2369,
+      "B_prompt_sha256": "f5cf2bc61143afcbce377a77a3b85d0f3193f474a26f26b305792b6b8b572119",
+      "C_prompt_sha256": "3077ec63990cbe561ad3c45a9e6e99c788ef29cc0a3d7ae9a8c2e5cc5ccd07c2",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0659::EHRNQ_0659_S1::chunk6",
+          "EHRNQ_0659::EHRNQ_0659_S1::chunk1"
+        ],
+        "C002": [
+          "EHRNQ_0659::EHRNQ_0659_S1::chunk6",
+          "EHRNQ_0659::EHRNQ_0659_S1::chunk7"
+        ]
+      },
+      "decomposition_status": "needs_review",
+      "decomposition_validation_issues": [
+        "claim_0_invalid_type",
+        "claim_1_invalid_type"
+      ]
+    },
+    {
+      "example_id": "EHRNQ_0663",
+      "status": "ready",
+      "B_tokens": 2333,
+      "C_tokens": 2369,
+      "B_prompt_sha256": "c5cbbf4db8feb8f55685f5cf84072fc4e7c29c3172bc3a3f104231c3c99e6738",
+      "C_prompt_sha256": "30bd3d86e0531f48d936f9662f871d9021614c72876f228adaf299d506084bc8",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0663::EHRNQ_0663_S1::chunk12",
+          "EHRNQ_0663::EHRNQ_0663_S1::chunk8"
+        ],
+        "C002": [
+          "EHRNQ_0663::EHRNQ_0663_S1::chunk13",
+          "EHRNQ_0663::EHRNQ_0663_S1::chunk12"
+        ]
+      },
+      "decomposition_status": "needs_review",
+      "decomposition_validation_issues": [
+        "claim_1_invalid_type"
+      ]
+    },
+    {
+      "example_id": "EHRNQ_0667",
+      "status": "ready",
+      "B_tokens": 7389,
+      "C_tokens": 7511,
+      "B_prompt_sha256": "9e0b46e45a952bf5141061b526bce892e4cc165a2fff92be6f87bf64286bf860",
+      "C_prompt_sha256": "faea11fd23a781307cf8c1df6feb1c5a6037daf8288ecfc66ea262da391afd18",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0667::EHRNQ_0667_S1::chunk1",
+          "EHRNQ_0667::EHRNQ_0667_S1::chunk2"
+        ],
+        "C002": [
+          "EHRNQ_0667::EHRNQ_0667_S1::chunk11",
+          "EHRNQ_0667::EHRNQ_0667_S1::chunk9"
+        ],
+        "C003": [
+          "EHRNQ_0667::EHRNQ_0667_S1::chunk11",
+          "EHRNQ_0667::EHRNQ_0667_S1::chunk2"
+        ],
+        "C004": [
+          "EHRNQ_0667::EHRNQ_0667_S1::chunk11",
+          "EHRNQ_0667::EHRNQ_0667_S1::chunk12"
+        ],
+        "C005": [
+          "EHRNQ_0667::EHRNQ_0667_S1::chunk9",
+          "EHRNQ_0667::EHRNQ_0667_S1::chunk12"
+        ],
+        "C006": [
+          "EHRNQ_0667::EHRNQ_0667_S1::chunk12",
+          "EHRNQ_0667::EHRNQ_0667_S1::chunk8"
+        ],
+        "C007": [
+          "EHRNQ_0667::EHRNQ_0667_S1::chunk13",
+          "EHRNQ_0667::EHRNQ_0667_S1::chunk9"
+        ]
+      },
+      "decomposition_status": "needs_review",
+      "decomposition_validation_issues": [
+        "claim_3_source_not_exact_substring",
+        "claim_4_source_not_exact_substring",
+        "claim_5_source_not_exact_substring",
+        "claim_6_source_not_exact_substring"
+      ]
+    },
+    {
+      "example_id": "EHRNQ_0838",
+      "status": "ready",
+      "B_tokens": 4317,
+      "C_tokens": 4435,
+      "B_prompt_sha256": "5b29e355b343f5e3a525b37d3b20046dff5be84eef9662a502cb1987f151dffd",
+      "C_prompt_sha256": "e613f6421097400ac20f0e8fa039596a884a843efa18557946e57cc11189dc79",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0838::EHRNQ_0838_S1::chunk2",
+          "EHRNQ_0838::EHRNQ_0838_S2::chunk4"
+        ],
+        "C002": [
+          "EHRNQ_0838::EHRNQ_0838_S1::chunk1",
+          "EHRNQ_0838::EHRNQ_0838_S1::chunk4"
+        ],
+        "C003": [
+          "EHRNQ_0838::EHRNQ_0838_S2::chunk4",
+          "EHRNQ_0838::EHRNQ_0838_S1::chunk4"
+        ],
+        "C004": [
+          "EHRNQ_0838::EHRNQ_0838_S1::chunk2",
+          "EHRNQ_0838::EHRNQ_0838_S2::chunk4"
+        ]
+      },
+      "decomposition_status": "needs_review",
+      "decomposition_validation_issues": [
+        "claim_1_invalid_type",
+        "claim_3_invalid_type"
+      ]
+    },
+    {
+      "example_id": "EHRNQ_0855",
+      "status": "ready",
+      "B_tokens": 4850,
+      "C_tokens": 5029,
+      "B_prompt_sha256": "1a28ecbc525096329c27e42a66d33ead39616e04e1fd544ee4771e843a288b92",
+      "C_prompt_sha256": "cb6c55f4af65dfa4ea34b0e44db7db497cd0556d06c7a02a0b7d2bc670ccd0b8",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0855::EHRNQ_0855_S2::chunk2",
+          "EHRNQ_0855::EHRNQ_0855_S1::chunk1"
+        ],
+        "C002": [
+          "EHRNQ_0855::EHRNQ_0855_S1::chunk1",
+          "EHRNQ_0855::EHRNQ_0855_S2::chunk2"
+        ],
+        "C003": [
+          "EHRNQ_0855::EHRNQ_0855_S2::chunk2",
+          "EHRNQ_0855::EHRNQ_0855_S1::chunk1"
+        ],
+        "C004": [
+          "EHRNQ_0855::EHRNQ_0855_S2::chunk2",
+          "EHRNQ_0855::EHRNQ_0855_S2::chunk1"
+        ]
+      },
+      "decomposition_status": "success",
+      "decomposition_validation_issues": []
+    },
+    {
+      "example_id": "EHRNQ_0883",
+      "status": "ready",
+      "B_tokens": 3194,
+      "C_tokens": 3299,
+      "B_prompt_sha256": "d85ba2d393f0b0621d13f7a7063f74de9f7654575819b74c2be85a01b0a9d0de",
+      "C_prompt_sha256": "a10a9fe044132cfcf47a6285fb4004075a80875892bd4bcfb792eaf9e2eec159",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0883::EHRNQ_0883_S2::chunk5",
+          "EHRNQ_0883::EHRNQ_0883_S2::chunk4"
+        ],
+        "C002": [
+          "EHRNQ_0883::EHRNQ_0883_S2::chunk3",
+          "EHRNQ_0883::EHRNQ_0883_S2::chunk5"
+        ],
+        "C003": [
+          "EHRNQ_0883::EHRNQ_0883_S2::chunk5",
+          "EHRNQ_0883::EHRNQ_0883_S2::chunk4"
+        ]
+      },
+      "decomposition_status": "needs_review",
+      "decomposition_validation_issues": [
+        "claim_2_source_not_exact_substring"
+      ]
+    },
+    {
+      "example_id": "EHRNQ_0910",
+      "status": "ready",
+      "B_tokens": 4301,
+      "C_tokens": 4637,
+      "B_prompt_sha256": "792eb60da102004e9b2e4840729c75b3b8257c5a982ef656013177b3f4d20a55",
+      "C_prompt_sha256": "7bd7e34de9af84475b4c374a334b4ba7fe8c1a05fed51b468542094b14096a95",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0910::EHRNQ_0910_S2::chunk2"
+        ],
+        "C002": [
+          "EHRNQ_0910::EHRNQ_0910_S2::chunk2"
+        ],
+        "C003": [
+          "EHRNQ_0910::EHRNQ_0910_S2::chunk1"
+        ],
+        "C004": [
+          "EHRNQ_0910::EHRNQ_0910_S2::chunk2"
+        ],
+        "C005": [
+          "EHRNQ_0910::EHRNQ_0910_S1::chunk5"
+        ],
+        "C006": [
+          "EHRNQ_0910::EHRNQ_0910_S2::chunk2"
+        ],
+        "C007": [
+          "EHRNQ_0910::EHRNQ_0910_S2::chunk2"
+        ],
+        "C008": [
+          "EHRNQ_0910::EHRNQ_0910_S2::chunk2"
+        ]
+      },
+      "decomposition_status": "needs_review",
+      "decomposition_validation_issues": [
+        "relation_phrase_review:causal_or_explanatory"
+      ]
+    },
+    {
+      "example_id": "EHRNQ_0950",
+      "status": "ready",
+      "B_tokens": 5634,
+      "C_tokens": 5783,
+      "B_prompt_sha256": "3f7de30b10a67573badeef2c2c4ceafd3c7f1c3e3d3ecadefe06626caf7ec970",
+      "C_prompt_sha256": "c65463f57e60cd5937a4e7231f603bf3a9977e771baf08b1a8c584093df7029b",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0950::EHRNQ_0950_S1::chunk1",
+          "EHRNQ_0950::EHRNQ_0950_S3::chunk1"
+        ],
+        "C002": [
+          "EHRNQ_0950::EHRNQ_0950_S1::chunk1",
+          "EHRNQ_0950::EHRNQ_0950_S1::chunk5"
+        ],
+        "C003": [
+          "EHRNQ_0950::EHRNQ_0950_S2::chunk1",
+          "EHRNQ_0950::EHRNQ_0950_S1::chunk4"
+        ],
+        "C004": [
+          "EHRNQ_0950::EHRNQ_0950_S1::chunk5",
+          "EHRNQ_0950::EHRNQ_0950_S2::chunk4"
+        ],
+        "C005": [
+          "EHRNQ_0950::EHRNQ_0950_S2::chunk1",
+          "EHRNQ_0950::EHRNQ_0950_S1::chunk4"
+        ]
+      },
+      "decomposition_status": "needs_review",
+      "decomposition_validation_issues": [
+        "claim_1_source_not_exact_substring",
+        "claim_3_invalid_type",
+        "claim_4_source_not_exact_substring",
+        "claim_4_invalid_type"
+      ]
+    },
+    {
+      "example_id": "EHRNQ_0956",
+      "status": "ready",
+      "B_tokens": 5320,
+      "C_tokens": 5438,
+      "B_prompt_sha256": "5cc6d102c8dbf97681cecee89884ee35daa22ccc2acb52f470f75295ead3cbbe",
+      "C_prompt_sha256": "17eacda9a2d87e62b73f27056726714d61201fd775e14e495de1bfe07d066550",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0956::EHRNQ_0956_S2::chunk1",
+          "EHRNQ_0956::EHRNQ_0956_S3::chunk3"
+        ],
+        "C002": [
+          "EHRNQ_0956::EHRNQ_0956_S2::chunk4",
+          "EHRNQ_0956::EHRNQ_0956_S2::chunk5"
+        ],
+        "C003": [
+          "EHRNQ_0956::EHRNQ_0956_S2::chunk4",
+          "EHRNQ_0956::EHRNQ_0956_S2::chunk5"
+        ],
+        "C004": [
+          "EHRNQ_0956::EHRNQ_0956_S1::chunk3",
+          "EHRNQ_0956::EHRNQ_0956_S1::chunk2"
+        ],
+        "C005": [
+          "EHRNQ_0956::EHRNQ_0956_S2::chunk5",
+          "EHRNQ_0956::EHRNQ_0956_S2::chunk6"
+        ]
+      },
+      "decomposition_status": "needs_review",
+      "decomposition_validation_issues": [
+        "claim_1_invalid_type"
+      ]
+    },
+    {
+      "example_id": "EHRNQ_0961",
+      "status": "ready",
+      "B_tokens": 2353,
+      "C_tokens": 2420,
+      "B_prompt_sha256": "0e2301f38696b4c2404c7865c67a09e67803950a6aa8cce9bc8b18228f522457",
+      "C_prompt_sha256": "adcbaa17aa53f4b110245d393555cfd241176387a34b1e5792600663f6d454c8",
+      "retained_evidence_by_claim": {
+        "C001": [
+          "EHRNQ_0961::EHRNQ_0961_S2::chunk4",
+          "EHRNQ_0961::EHRNQ_0961_S2::chunk3"
+        ],
+        "C002": [
+          "EHRNQ_0961::EHRNQ_0961_S2::chunk1",
+          "EHRNQ_0961::EHRNQ_0961_S2::chunk6"
+        ]
+      },
+      "decomposition_status": "needs_review",
+      "decomposition_validation_issues": [
+        "relation_phrase_review:causal_or_explanatory"
+      ]
+    }
+  ]
+}
