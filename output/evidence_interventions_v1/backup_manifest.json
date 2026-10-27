@@ -1,0 +1,71 @@
+{
+  "project": "RA-CEDA v3.2",
+  "stage": "pilot50_evidence_interventions",
+  "status": "exploratory_pilot_complete",
+  "created_utc": "2026-10-27T19:39:09.209991+00:00",
+  "repository_branch": "main",
+  "files": {
+    "intervention_plan.jsonl": {
+      "bytes": 291651,
+      "sha256": "1bf71586f34ee3993cc205ab7799c731f591e44d91a2f9b97f2925a86a9d69bc"
+    },
+    "intervention_plan_sentence_level.jsonl": {
+      "bytes": 140794,
+      "sha256": "524cf7313679da8d6cbe6db37dc1913ba03f204f30b3a0eaa3c58bac3a256f53"
+    },
+    "prompt_variants/paired_prompts.jsonl": {
+      "bytes": 4749292,
+      "sha256": "4ce8d7c40a30cba287f575fc9acece41b5309709bef38cc999e97193b7a418f5"
+    },
+    "qwen3_8b_runs/intervention_answers.jsonl": {
+      "bytes": 620068,
+      "sha256": "20520134b8d311d7a8b1096a322a317a9ec9b70332111fbc1b272abf4fc18346"
+    },
+    "qwen3_8b_runs/intervention_errors.jsonl": {
+      "bytes": 667,
+      "sha256": "fca21618d6b9add03f06756421bb7ad3074195ead8b54c04d152707d7f1befc9"
+    },
+    "qwen3_8b_runs/run_manifest.json": {
+      "bytes": 457,
+      "sha256": "040a40bd79ebfeeec902c91fa29ee790d2210f611c204fd0a9c0e25c75e7e1eb"
+    },
+    "qwen3_8b_runs/json_recovery_assessment.jsonl": {
+      "bytes": 259796,
+      "sha256": "7c39561ab0d985614aacb5dad18c31a179385a3b247afff915906bb41d7b3872"
+    },
+    "qwen3_8b_runs/recovered_answer_candidates.jsonl": {
+      "bytes": 360281,
+      "sha256": "26bf248fb8e22f402e50733479286397cdbabbc578b573a3352e9fa1fbee4c95"
+    },
+    "qwen3_8b_runs/recovery_summary.json": {
+      "bytes": 513,
+      "sha256": "1f3606d57078584fb617c115944b7296cbc57fd63004d479d47f373e83976d45"
+    },
+    "paired_answer_comparison_v1.jsonl": {
+      "bytes": 35597,
+      "sha256": "0372fabb7a3674970bb279ab3d7ee0da3c4d89d9ee8071b2a3123bdeb3139e21"
+    },
+    "paired_answer_comparison_summary_v1.json": {
+      "bytes": 2131,
+      "sha256": "48d5cc11c3eba905546056656f5eac17ebe285f534989f83d466506bca3a032a"
+    },
+    "matched_real_vs_sham_summary_v1.json": {
+      "bytes": 3131,
+      "sha256": "135a136b0bd88d6306eb12b2b0720b6002f39e21c5d33119116000cb1b81999e"
+    },
+    "final_pilot50_intervention_report_v1.json": {
+      "bytes": 5188,
+      "sha256": "ea1cd8ca7edb99c40837c88be103c7f3772d007ed9c100e203342b4213856181"
+    },
+    "final_pilot50_intervention_report_v1.md": {
+      "bytes": 2029,
+      "sha256": "cac169d7787211e800364711be33c5fd83ba800e1b4397865c7f1d0900066770"
+    }
+  },
+  "notes": [
+    "Raw intervention generations are preserved unchanged.",
+    "No model weights or credentials are included.",
+    "Recovered answers are a selected subset; recovery bias remains.",
+    "Choice changes measure sensitivity, not clinical correctness."
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "analysis": "Matched real-versus-sham exploratory sensitivity comparison",
+  "usable_answer_rule": "candidate_with_trailing_text",
+  "results": {
+    "deletion": {
+      "real_condition": "real_deletion",
+      "sham_condition": "sham_deletion",
+      "matched_claims": 14,
+      "matched_examples": 5,
+      "real_changed": 0,
+      "sham_changed": 0,
+      "real_only_changed": 0,
+      "sham_only_changed": 0,
+      "both_changed": 0,
+      "neither_changed": 14,
+      "example_level": [
+        {
+          "example_id": "EHRNQ_0584",
+          "matched_claims": 1,
+          "real_changed_claims": 0,
+          "sham_changed_claims": 0
+        },
+        {
+          "example_id": "EHRNQ_0597",
+          "matched_claims": 2,
+          "real_changed_claims": 0,
+          "sham_changed_claims": 0
+        },
+        {
+          "example_id": "EHRNQ_0663",
+          "matched_claims": 2,
+          "real_changed_claims": 0,
+          "sham_changed_claims": 0
+        },
+        {
+          "example_id": "EHRNQ_0667",
+          "matched_claims": 6,
+          "real_changed_claims": 0,
+          "sham_changed_claims": 0
+        },
+        {
+          "example_id": "EHRNQ_0910",
+          "matched_claims": 3,
+          "real_changed_claims": 0,
+          "sham_changed_claims": 0
+        }
+      ]
+    },
+    "masking": {
+      "real_condition": "real_masking",
+      "sham_condition": "sham_masking",
+      "matched_claims": 18,
+      "matched_examples": 8,
+      "real_changed": 1,
+      "sham_changed": 2,
+      "real_only_changed": 0,
+      "sham_only_changed": 1,
+      "both_changed": 1,
+      "neither_changed": 16,
+      "example_level": [
+        {
+          "example_id": "EHRNQ_0308",
+          "matched_claims": 2,
+          "real_changed_claims": 0,
+          "sham_changed_claims": 0
+        },
+        {
+          "example_id": "EHRNQ_0559",
+          "matched_claims": 2,
+          "real_changed_claims": 1,
+          "sham_changed_claims": 2
+        },
+        {
+          "example_id": "EHRNQ_0584",
+          "matched_claims": 1,
+          "real_changed_claims": 0,
+          "sham_changed_claims": 0
+        },
+        {
+          "example_id": "EHRNQ_0597",
+          "matched_claims": 2,
+          "real_changed_claims": 0,
+          "sham_changed_claims": 0
+        },
+        {
+          "example_id": "EHRNQ_0659",
+          "matched_claims": 1,
+          "real_changed_claims": 0,
+          "sham_changed_claims": 0
+        },
+        {
+          "example_id": "EHRNQ_0663",
+          "matched_claims": 1,
+          "real_changed_claims": 0,
+          "sham_changed_claims": 0
+        },
+        {
+          "example_id": "EHRNQ_0667",
+          "matched_claims": 6,
+          "real_changed_claims": 0,
+          "sham_changed_claims": 0
+        },
+        {
+          "example_id": "EHRNQ_0910",
+          "matched_claims": 3,
+          "real_changed_claims": 0,
+          "sham_changed_claims": 0
+        }
+      ]
+    }
+  },
+  "interpretation_limit": "Choice changes measure sensitivity, not correctness. Recovery-related selection bias remains; small matched samples are descriptive only."
+}

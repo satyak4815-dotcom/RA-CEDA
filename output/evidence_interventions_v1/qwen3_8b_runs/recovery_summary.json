@@ -1,0 +1,13 @@
+{
+  "source_generations": 365,
+  "recovered_candidate_rows": 174,
+  "candidate_status_counts": {
+    "candidate_with_trailing_text": 135,
+    "candidate_with_possible_followup_answer": 39,
+    "not_recovered_object_count_not_one": 183,
+    "not_recovered_invalid_choice": 8
+  },
+  "note": "Candidates are not verified for clinical correctness.",
+  "source_raw_generations_modified": false,
+  "output_path": "/kaggle/working/RA_CEDA_V3_2/evidence_interventions_v1/qwen3_8b_runs/recovered_answer_candidates.jsonl"
+}

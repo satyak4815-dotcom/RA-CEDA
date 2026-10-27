@@ -1,0 +1,14 @@
+{
+  "stage": "evidence_intervention_qwen3_8b_v1",
+  "model_id": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "prompt_rows": 365,
+  "unique_successful_keys": 365,
+  "remaining_without_success": 0,
+  "result_rows_including_any_retries": 365,
+  "error_log_rows_including_retry_history": 1,
+  "new_successes_this_resume": 175,
+  "new_errors_this_resume": 0,
+  "elapsed_seconds_this_resume": 7693.6,
+  "status": "complete"
+}

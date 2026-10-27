@@ -1,0 +1,65 @@
+{
+  "analysis": "Exploratory paired answer-choice sensitivity",
+  "candidate_rows_total": 174,
+  "usable_candidate_rows": 135,
+  "usable_recovery_status": "candidate_with_trailing_text",
+  "prompt_rows_by_condition": {
+    "control": 73,
+    "real_deletion": 73,
+    "sham_deletion": 73,
+    "real_masking": 73,
+    "sham_masking": 73
+  },
+  "candidate_recovery_status_by_condition": {
+    "control": {
+      "candidate_with_trailing_text": 22,
+      "candidate_with_possible_followup_answer": 10
+    },
+    "real_deletion": {
+      "candidate_with_possible_followup_answer": 8,
+      "candidate_with_trailing_text": 29
+    },
+    "sham_deletion": {
+      "candidate_with_trailing_text": 24,
+      "candidate_with_possible_followup_answer": 6
+    },
+    "real_masking": {
+      "candidate_with_possible_followup_answer": 10,
+      "candidate_with_trailing_text": 26
+    },
+    "sham_masking": {
+      "candidate_with_possible_followup_answer": 5,
+      "candidate_with_trailing_text": 34
+    }
+  },
+  "paired_comparisons_vs_control": {
+    "real_deletion": {
+      "paired_usable_claims": 18,
+      "choice_unchanged": 16,
+      "choice_changed": 2,
+      "choice_change_rate": 0.1111
+    },
+    "sham_deletion": {
+      "paired_usable_claims": 16,
+      "choice_unchanged": 16,
+      "choice_changed": 0,
+      "choice_change_rate": 0.0
+    },
+    "real_masking": {
+      "paired_usable_claims": 18,
+      "choice_unchanged": 17,
+      "choice_changed": 1,
+      "choice_change_rate": 0.0556
+    },
+    "sham_masking": {
+      "paired_usable_claims": 20,
+      "choice_unchanged": 18,
+      "choice_changed": 2,
+      "choice_change_rate": 0.1
+    }
+  },
+  "comparison_rows_written": 72,
+  "excluded_note": "Ambiguous follow-up-answer candidates and unrecovered generations are excluded from this initial comparison. Choice changes do not establish clinical correctness or hallucination reduction.",
+  "comparison_file": "/kaggle/working/RA_CEDA_V3_2/evidence_interventions_v1/paired_answer_comparison_v1.jsonl",
+  "summary_file": "/kaggle/working/RA_CEDA_V3_2/evidence_interventions_v1/paired_answer_comparison_summary_v1.json"
+}
