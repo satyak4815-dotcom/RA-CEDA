@@ -1,0 +1,15 @@
+{
+  "stage": "r1_claim_summary_v1",
+  "created_utc": "2026-10-27T15:00:17.117482+00:00",
+  "status": "exploratory_summary",
+  "claim_rows": 106,
+  "missing_cecs_matches": 0,
+  "missing_medcpt_matches": 0,
+  "output": "/kaggle/working/RA_CEDA_V3_2/r1_claim_summary_v1/r1_claim_level_summary.jsonl",
+  "sha256": "0a660a6eea249efb405b830a2df4d2d69c175dca91beac90da21e716af9bbbdb",
+  "limitations": [
+    "No weighted composite risk score is created.",
+    "No thresholds are calibrated in the pilot.",
+    "Verifier labels and relevance scores are not ground truth."
+  ]
+}
