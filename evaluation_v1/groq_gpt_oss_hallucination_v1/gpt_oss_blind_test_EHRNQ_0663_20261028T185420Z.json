@@ -1,0 +1,17 @@
+{
+  "example_id": "EHRNQ_0663",
+  "hallucination_categories": {
+    "FABRICATED_SOURCE": {
+      "score": 1,
+      "evidence": "The answer does not cite any source that is not present in the provided clinical evidence; all references are to the given text."
+    },
+    "FACTUAL_ERROR": {
+      "score": 5,
+      "evidence": "Clinical evidence (chunk13) states the patient will likely need outpatient MRI for further evaluation of the left renal mass, while the answer selects option B, which recommends ultrasound. This contradicts the documented recommendation."
+    },
+    "INCOMPLETE_REASONING": {
+      "score": 5,
+      "evidence": "The rationale asserts that MRI is recommended but then declares choice B (ultrasound) as correct, without reconciling this inconsistency or explaining why B is appropriate."
+    }
+  }
+}

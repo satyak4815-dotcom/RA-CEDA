@@ -1,0 +1,6 @@
+{
+  "example_id": "EHRNQ_0490",
+  "arm": "A",
+  "judge_model": "prometheus-eval/prometheus-7b-v2.0",
+  "judge_output": "The response provided is not aligned with the clinical evidence. The patient underwent a parotidectomy, not a lumbar laminectomy. The patient's condition was squamous cell carcinoma metastasized to the submental region, not lumbar spinal stenosis. The patient's medical interventions were not related to lumbar spinal stenosis, but rather to the metastasis of squamous cell carcinoma. Therefore, the response is predominantly contradicted and unsupported by the clinical evidence. The patient's medical interventions were not related to lumbar spinal stenosis, but rather to the metastasis of squamous cell carcinoma. The response is predominantly contradicted and unsupported by the clinical evidence. The response is predominantly contradicted and unsupported by the clinical evidence."
+}

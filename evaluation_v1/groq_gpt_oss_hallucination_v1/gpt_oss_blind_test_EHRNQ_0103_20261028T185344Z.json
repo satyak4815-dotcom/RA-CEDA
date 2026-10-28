@@ -1,0 +1,17 @@
+{
+  "example_id": "EHRNQ_0103",
+  "hallucination_categories": {
+    "FACTUAL_ERROR": {
+      "score": 5,
+      "evidence": "Both passages list 'Allergies: Nut Flavor', indicating an allergy to nuts. The predicted answer chose option B (latex allergy), which contradicts the documented allergy."
+    },
+    "INCOMPLETE_REASONING": {
+      "score": 5,
+      "evidence": "The rationale notes the nut allergy but then selects option B (latex) without providing any logical link; the reasoning does not explain the mismatch between evidence and chosen answer."
+    },
+    "FABRICATED_SOURCE": {
+      "score": 1,
+      "evidence": "The answer references the provided discharge summary passages; no external or invented sources are introduced."
+    }
+  }
+}

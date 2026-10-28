@@ -1,0 +1,17 @@
+{
+  "example_id": "EHRNQ_0516",
+  "hallucination_categories": {
+    "FACTUAL_ERROR": {
+      "score": 4,
+      "evidence": "The evidence states a 'left open inguinal hernia repair with mesh' but never mentions that the hernia was a direct hernia, which the answer adds."
+    },
+    "INCOMPLETE_REASONING": {
+      "score": 2,
+      "evidence": "The rationale claims the evidence supports the procedure and stability without explicitly linking to the quoted passages, leaving the logical connection implicit."
+    },
+    "FABRICATED_SOURCE": {
+      "score": 5,
+      "evidence": "The rationale references 'C001' and 'C002' as sources, which are not present in the supplied clinical evidence."
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{"example_id": "EHRNQ_0103", "arm": "B", "predicted_choice": "B", "gold_choice": "E", "correct": false, "stage2_status": "eligible_for_hallucination_analysis"}
+{"example_id": "EHRNQ_0409", "arm": "B", "predicted_choice": "B", "gold_choice": "E", "correct": false, "stage2_status": "eligible_for_hallucination_analysis"}
+{"example_id": "EHRNQ_0961", "arm": "B", "predicted_choice": "D", "gold_choice": "C", "correct": false, "stage2_status": "eligible_for_hallucination_analysis"}
+{"example_id": "EHRNQ_0663", "arm": "B", "predicted_choice": "B", "gold_choice": "D", "correct": false, "stage2_status": "eligible_for_hallucination_analysis"}
+{"example_id": "EHRNQ_0516", "arm": "B", "predicted_choice": "D", "gold_choice": "B", "correct": false, "stage2_status": "eligible_for_hallucination_analysis"}

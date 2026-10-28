@@ -1,0 +1,21 @@
+{
+  "example_id": "EHRNQ_0103",
+  "correctness": {
+    "label": "INCORRECT",
+    "evidence": "The discharge summary lists 'Allergies: Nut Flavor', indicating an allergy to nuts. The predicted answer chose 'latex', which is not supported by the evidence."
+  },
+  "hallucination_categories": {
+    "FACTUAL_ERROR": {
+      "score": 5,
+      "evidence": "The answer states the patient is allergic to latex, but the clinical evidence only mentions a nut allergy ('Allergies: Nut Flavor')."
+    },
+    "INCOMPLETE_REASONING": {
+      "score": 4,
+      "evidence": "The rationale correctly identifies a nut-related allergy but then selects the latex option, failing to link the evidence to the correct answer."
+    },
+    "FABRICATED_SOURCE": {
+      "score": 1,
+      "evidence": "All cited information comes directly from the provided discharge summary; no external or invented sources are referenced."
+    }
+  }
+}

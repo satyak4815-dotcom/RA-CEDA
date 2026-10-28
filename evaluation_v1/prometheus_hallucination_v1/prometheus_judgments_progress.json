@@ -1,0 +1,10 @@
+{
+  "input_rows": 91,
+  "checkpointed_rows": 41,
+  "judged_rows": 23,
+  "parsed_scores": 1,
+  "parse_failures": 22,
+  "judge_errors": 17,
+  "output_path": "/kaggle/working/RA-CEDA/evaluation_v1/prometheus_hallucination_v1/prometheus_judgments.jsonl",
+  "updated_utc": "2026-10-28T16:42:08Z"
+}

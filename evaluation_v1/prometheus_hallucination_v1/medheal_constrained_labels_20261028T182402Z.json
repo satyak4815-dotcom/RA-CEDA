@@ -1,0 +1,12 @@
+{
+  "example_id": "EHRNQ_0103",
+  "predicted_choice": "B",
+  "gold_choice": "E",
+  "method": "constrained_multilabel_pilot",
+  "calibrated": false,
+  "categories": {
+    "FACTUAL_ERROR": "ABSENT",
+    "INCOMPLETE_REASONING": "ABSENT",
+    "FABRICATED_SOURCE": "ABSENT"
+  }
+}

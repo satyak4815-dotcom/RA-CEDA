@@ -1,0 +1,270 @@
+{"example_id": "EHRNQ_0048", "arm": "A", "category": "FACTUAL_ERROR", "status": "success", "label": "FLAG", "model": "openai/gpt-oss-120b", "usage": {"prompt_tokens": 1477, "completion_tokens": 261, "total_tokens": 1738}}
+{"example_id": "EHRNQ_0048", "arm": "A", "category": "INCOMPLETE_REASONING", "status": "success", "label": "NOT_FLAG", "reason": "rationale_unavailable", "model": "openai/gpt-oss-120b"}
+{"example_id": "EHRNQ_0048", "arm": "A", "category": "FABRICATED_SOURCE", "status": "success", "label": "FLAG", "model": "openai/gpt-oss-120b", "usage": {"prompt_tokens": 1480, "completion_tokens": 315, "total_tokens": 1795}}
+{"example_id": "EHRNQ_0048", "arm": "B", "category": "FACTUAL_ERROR", "status": "success", "label": "FLAG", "model": "openai/gpt-oss-120b", "usage": {"prompt_tokens": 1520, "completion_tokens": 251, "total_tokens": 1771}}
+{"example_id": "EHRNQ_0048", "arm": "B", "category": "INCOMPLETE_REASONING", "status": "success", "label": "FLAG", "model": "openai/gpt-oss-120b", "usage": {"prompt_tokens": 1520, "completion_tokens": 299, "total_tokens": 1819}}
+{"example_id": "EHRNQ_0048", "arm": "B", "category": "FABRICATED_SOURCE", "status": "success", "label": "FLAG", "model": "openai/gpt-oss-120b", "usage": {"prompt_tokens": 1523, "completion_tokens": 230, "total_tokens": 1753}}
+{"example_id": "EHRNQ_0048", "arm": "C", "category": "FACTUAL_ERROR", "status": "success", "label": "FLAG", "model": "openai/gpt-oss-120b", "usage": {"prompt_tokens": 1526, "completion_tokens": 239, "total_tokens": 1765}}
+{"example_id": "EHRNQ_0048", "arm": "C", "category": "INCOMPLETE_REASONING", "status": "success", "label": "FLAG", "model": "openai/gpt-oss-120b", "usage": {"prompt_tokens": 1526, "completion_tokens": 325, "total_tokens": 1851}}
+{"example_id": "EHRNQ_0048", "arm": "C", "category": "FABRICATED_SOURCE", "status": "success", "label": "FLAG", "model": "openai/gpt-oss-120b", "usage": {"prompt_tokens": 1529, "completion_tokens": 234, "total_tokens": 1763}}
+{"example_id": "EHRNQ_0052", "arm": "A", "category": "FACTUAL_ERROR", "status": "success", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "usage": {"prompt_tokens": 1444, "completion_tokens": 112, "total_tokens": 1556}}
+{"example_id": "EHRNQ_0052", "arm": "A", "category": "INCOMPLETE_REASONING", "status": "success", "label": "NOT_FLAG", "reason": "rationale_unavailable", "model": "openai/gpt-oss-120b"}
+{"example_id": "EHRNQ_0052", "arm": "A", "category": "FABRICATED_SOURCE", "status": "success", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "usage": {"prompt_tokens": 1447, "completion_tokens": 201, "total_tokens": 1648}}
+{"example_id": "EHRNQ_0052", "arm": "B", "category": "FACTUAL_ERROR", "status": "success", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "usage": {"prompt_tokens": 1486, "completion_tokens": 119, "total_tokens": 1605}}
+{"example_id": "EHRNQ_0052", "arm": "B", "category": "INCOMPLETE_REASONING", "status": "success", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "usage": {"prompt_tokens": 1486, "completion_tokens": 105, "total_tokens": 1591}}
+{"example_id": "EHRNQ_0052", "arm": "B", "category": "FABRICATED_SOURCE", "status": "success", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "usage": {"prompt_tokens": 1489, "completion_tokens": 251, "total_tokens": 1740}}
+{"example_id": "EHRNQ_0052", "arm": "C", "category": "FACTUAL_ERROR", "status": "success", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "usage": {"prompt_tokens": 1486, "completion_tokens": 110, "total_tokens": 1596}}
+{"example_id": "EHRNQ_0052", "arm": "C", "category": "INCOMPLETE_REASONING", "status": "success", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "usage": {"prompt_tokens": 1486, "completion_tokens": 105, "total_tokens": 1591}}
+{"example_id": "EHRNQ_0052", "arm": "C", "category": "FABRICATED_SOURCE", "status": "success", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "usage": {"prompt_tokens": 1489, "completion_tokens": 251, "total_tokens": 1740}}
+{"example_id": "EHRNQ_0103", "arm": "A", "category": "FACTUAL_ERROR", "status": "success", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "usage": {"prompt_tokens": 1472, "completion_tokens": 166, "total_tokens": 1638}}
+{"example_id": "EHRNQ_0103", "arm": "A", "category": "INCOMPLETE_REASONING", "status": "success", "label": "NOT_FLAG", "reason": "rationale_unavailable", "model": "openai/gpt-oss-120b"}
+{"example_id": "EHRNQ_0103", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:05.745992+00:00"}
+{"example_id": "EHRNQ_0103", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:08.339147+00:00"}
+{"example_id": "EHRNQ_0103", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:10.344302+00:00"}
+{"example_id": "EHRNQ_0103", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:10.996978+00:00"}
+{"example_id": "EHRNQ_0103", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:13.504944+00:00"}
+{"example_id": "EHRNQ_0103", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:15.509710+00:00"}
+{"example_id": "EHRNQ_0103", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:16.005821+00:00"}
+{"example_id": "EHRNQ_0169", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:18.428426+00:00"}
+{"example_id": "EHRNQ_0169", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:20.432098+00:00"}
+{"example_id": "EHRNQ_0169", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:21.077330+00:00"}
+{"example_id": "EHRNQ_0169", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:23.765626+00:00"}
+{"example_id": "EHRNQ_0169", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:25.770040+00:00"}
+{"example_id": "EHRNQ_0169", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:26.477388+00:00"}
+{"example_id": "EHRNQ_0169", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:29.184253+00:00"}
+{"example_id": "EHRNQ_0169", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:31.188345+00:00"}
+{"example_id": "EHRNQ_0169", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:31.598175+00:00"}
+{"example_id": "EHRNQ_0194", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:34.057452+00:00"}
+{"example_id": "EHRNQ_0194", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:36.061967+00:00"}
+{"example_id": "EHRNQ_0194", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:36.665459+00:00"}
+{"example_id": "EHRNQ_0194", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:39.501465+00:00"}
+{"example_id": "EHRNQ_0194", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:41.505644+00:00"}
+{"example_id": "EHRNQ_0194", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:42.681742+00:00"}
+{"example_id": "EHRNQ_0194", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:45.211472+00:00"}
+{"example_id": "EHRNQ_0194", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:47.215292+00:00"}
+{"example_id": "EHRNQ_0194", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:47.672994+00:00"}
+{"example_id": "EHRNQ_0246", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:50.139773+00:00"}
+{"example_id": "EHRNQ_0246", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:52.143907+00:00"}
+{"example_id": "EHRNQ_0246", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:52.593245+00:00"}
+{"example_id": "EHRNQ_0246", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:55.023863+00:00"}
+{"example_id": "EHRNQ_0246", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:57.027748+00:00"}
+{"example_id": "EHRNQ_0246", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:57.287029+00:00"}
+{"example_id": "EHRNQ_0246", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:14:59.710740+00:00"}
+{"example_id": "EHRNQ_0246", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:01.714626+00:00"}
+{"example_id": "EHRNQ_0246", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:02.237674+00:00"}
+{"example_id": "EHRNQ_0308", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:04.626338+00:00"}
+{"example_id": "EHRNQ_0308", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:06.630128+00:00"}
+{"example_id": "EHRNQ_0308", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:07.658450+00:00"}
+{"example_id": "EHRNQ_0308", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:10.169627+00:00"}
+{"example_id": "EHRNQ_0308", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:12.173857+00:00"}
+{"example_id": "EHRNQ_0308", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:12.582437+00:00"}
+{"example_id": "EHRNQ_0308", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:15.097407+00:00"}
+{"example_id": "EHRNQ_0308", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:17.101358+00:00"}
+{"example_id": "EHRNQ_0308", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:17.642802+00:00"}
+{"example_id": "EHRNQ_0357", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:20.228214+00:00"}
+{"example_id": "EHRNQ_0357", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:22.232117+00:00"}
+{"example_id": "EHRNQ_0357", "arm": "A", "category": "FABRICATED_SOURCE", "label": "FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:23.425838+00:00"}
+{"example_id": "EHRNQ_0357", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:26.099018+00:00"}
+{"example_id": "EHRNQ_0357", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:28.103454+00:00"}
+{"example_id": "EHRNQ_0357", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:28.620469+00:00"}
+{"example_id": "EHRNQ_0357", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:31.376575+00:00"}
+{"example_id": "EHRNQ_0357", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:33.380229+00:00"}
+{"example_id": "EHRNQ_0357", "arm": "C", "category": "FABRICATED_SOURCE", "label": "FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:36.131647+00:00"}
+{"example_id": "EHRNQ_0409", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:38.572987+00:00"}
+{"example_id": "EHRNQ_0409", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:40.577248+00:00"}
+{"example_id": "EHRNQ_0409", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:43.283914+00:00"}
+{"example_id": "EHRNQ_0409", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:48.797217+00:00"}
+{"example_id": "EHRNQ_0409", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:50.801916+00:00"}
+{"example_id": "EHRNQ_0409", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:52.554338+00:00"}
+{"example_id": "EHRNQ_0409", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:55.102693+00:00"}
+{"example_id": "EHRNQ_0409", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:57.106554+00:00"}
+{"example_id": "EHRNQ_0409", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:15:57.771913+00:00"}
+{"example_id": "EHRNQ_0451", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:16:00.482948+00:00"}
+{"example_id": "EHRNQ_0451", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:16:02.486995+00:00"}
+{"example_id": "EHRNQ_0451", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:16:04.853921+00:00"}
+{"example_id": "EHRNQ_0451", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:16:10.761561+00:00"}
+{"example_id": "EHRNQ_0451", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:16:12.765856+00:00"}
+{"example_id": "EHRNQ_0451", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:16:14.480370+00:00"}
+{"example_id": "EHRNQ_0451", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:16:21.490070+00:00"}
+{"example_id": "EHRNQ_0451", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:16:23.494497+00:00"}
+{"example_id": "EHRNQ_0451", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:16:24.918276+00:00"}
+{"example_id": "EHRNQ_0456", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:16:28.532187+00:00"}
+{"example_id": "EHRNQ_0456", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:16:30.535781+00:00"}
+{"example_id": "EHRNQ_0456", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:16:31.119294+00:00"}
+{"example_id": "EHRNQ_0456", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:16:33.438267+00:00"}
+{"example_id": "EHRNQ_0456", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:16:35.441503+00:00"}
+{"example_id": "EHRNQ_0456", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:16:36.850438+00:00"}
+{"example_id": "EHRNQ_0456", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:16:41.461095+00:00"}
+{"example_id": "EHRNQ_0456", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:16:43.464833+00:00"}
+{"example_id": "EHRNQ_0456", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:16:44.803904+00:00"}
+{"example_id": "EHRNQ_0490", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:16:48.600796+00:00"}
+{"example_id": "EHRNQ_0490", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:16:50.604568+00:00"}
+{"example_id": "EHRNQ_0490", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:16:51.113594+00:00"}
+{"example_id": "EHRNQ_0490", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:16:56.078260+00:00"}
+{"example_id": "EHRNQ_0490", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:16:58.082242+00:00"}
+{"example_id": "EHRNQ_0490", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:16:58.737081+00:00"}
+{"example_id": "EHRNQ_0490", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:17:03.299349+00:00"}
+{"example_id": "EHRNQ_0490", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:17:05.304556+00:00"}
+{"example_id": "EHRNQ_0490", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:17:05.817136+00:00"}
+{"example_id": "EHRNQ_0495", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:17:09.226161+00:00"}
+{"example_id": "EHRNQ_0495", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:17:11.230114+00:00"}
+{"example_id": "EHRNQ_0495", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:17:15.068110+00:00"}
+{"example_id": "EHRNQ_0495", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:17:17.748093+00:00"}
+{"example_id": "EHRNQ_0495", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:17:19.752256+00:00"}
+{"example_id": "EHRNQ_0495", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:17:22.619503+00:00"}
+{"example_id": "EHRNQ_0495", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:17:25.245171+00:00"}
+{"example_id": "EHRNQ_0495", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:17:27.249135+00:00"}
+{"example_id": "EHRNQ_0495", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:17:28.869835+00:00"}
+{"example_id": "EHRNQ_0516", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:17:33.343436+00:00"}
+{"example_id": "EHRNQ_0516", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:17:35.347789+00:00"}
+{"example_id": "EHRNQ_0516", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:17:37.965703+00:00"}
+{"example_id": "EHRNQ_0516", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:17:43.673468+00:00"}
+{"example_id": "EHRNQ_0516", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:17:45.677717+00:00"}
+{"example_id": "EHRNQ_0516", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:17:47.424946+00:00"}
+{"example_id": "EHRNQ_0516", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:17:49.770109+00:00"}
+{"example_id": "EHRNQ_0516", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:17:51.774245+00:00"}
+{"example_id": "EHRNQ_0516", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:17:55.457270+00:00"}
+{"example_id": "EHRNQ_0546", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:17:59.229347+00:00"}
+{"example_id": "EHRNQ_0546", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:18:01.233028+00:00"}
+{"example_id": "EHRNQ_0546", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:18:01.433497+00:00"}
+{"example_id": "EHRNQ_0546", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:18:04.095212+00:00"}
+{"example_id": "EHRNQ_0546", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:18:06.098707+00:00"}
+{"example_id": "EHRNQ_0546", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:18:09.552947+00:00"}
+{"example_id": "EHRNQ_0546", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:18:12.283798+00:00"}
+{"example_id": "EHRNQ_0546", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:18:14.288066+00:00"}
+{"example_id": "EHRNQ_0546", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:18:14.496680+00:00"}
+{"example_id": "EHRNQ_0559", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:18:18.999477+00:00"}
+{"example_id": "EHRNQ_0559", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:18:21.003455+00:00"}
+{"example_id": "EHRNQ_0559", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:18:21.364478+00:00"}
+{"example_id": "EHRNQ_0559", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:18:24.063760+00:00"}
+{"example_id": "EHRNQ_0559", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:18:26.067927+00:00"}
+{"example_id": "EHRNQ_0559", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:18:28.583235+00:00"}
+{"example_id": "EHRNQ_0559", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:18:32.055431+00:00"}
+{"example_id": "EHRNQ_0559", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:18:34.059132+00:00"}
+{"example_id": "EHRNQ_0559", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:18:35.673347+00:00"}
+{"example_id": "EHRNQ_0573", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:18:40.173581+00:00"}
+{"example_id": "EHRNQ_0573", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:18:42.177239+00:00"}
+{"example_id": "EHRNQ_0573", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:18:42.822723+00:00"}
+{"example_id": "EHRNQ_0573", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:18:48.567885+00:00"}
+{"example_id": "EHRNQ_0573", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:18:50.572408+00:00"}
+{"example_id": "EHRNQ_0573", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:18:50.971671+00:00"}
+{"example_id": "EHRNQ_0573", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:18:54.550056+00:00"}
+{"example_id": "EHRNQ_0573", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:18:56.554107+00:00"}
+{"example_id": "EHRNQ_0573", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:02.180886+00:00"}
+{"example_id": "EHRNQ_0584", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:04.582669+00:00"}
+{"example_id": "EHRNQ_0584", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:06.586522+00:00"}
+{"example_id": "EHRNQ_0584", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:07.046811+00:00"}
+{"example_id": "EHRNQ_0584", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:09.517542+00:00"}
+{"example_id": "EHRNQ_0584", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:11.521321+00:00"}
+{"example_id": "EHRNQ_0584", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:12.780203+00:00"}
+{"example_id": "EHRNQ_0584", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:15.347990+00:00"}
+{"example_id": "EHRNQ_0584", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:17.352511+00:00"}
+{"example_id": "EHRNQ_0584", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:18.688330+00:00"}
+{"example_id": "EHRNQ_0597", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:21.046180+00:00"}
+{"example_id": "EHRNQ_0597", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:23.050192+00:00"}
+{"example_id": "EHRNQ_0597", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:23.451842+00:00"}
+{"example_id": "EHRNQ_0597", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:25.827479+00:00"}
+{"example_id": "EHRNQ_0597", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:27.830962+00:00"}
+{"example_id": "EHRNQ_0597", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:29.309670+00:00"}
+{"example_id": "EHRNQ_0597", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:32.793456+00:00"}
+{"example_id": "EHRNQ_0597", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:34.797812+00:00"}
+{"example_id": "EHRNQ_0597", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:38.258260+00:00"}
+{"example_id": "EHRNQ_0640", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:41.622667+00:00"}
+{"example_id": "EHRNQ_0640", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:43.626461+00:00"}
+{"example_id": "EHRNQ_0640", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:45.208455+00:00"}
+{"example_id": "EHRNQ_0640", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:47.816687+00:00"}
+{"example_id": "EHRNQ_0640", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:49.820724+00:00"}
+{"example_id": "EHRNQ_0640", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:51.086704+00:00"}
+{"example_id": "EHRNQ_0640", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:53.764417+00:00"}
+{"example_id": "EHRNQ_0640", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:55.768382+00:00"}
+{"example_id": "EHRNQ_0640", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:56.330597+00:00"}
+{"example_id": "EHRNQ_0659", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:19:58.922580+00:00"}
+{"example_id": "EHRNQ_0659", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:00.927412+00:00"}
+{"example_id": "EHRNQ_0659", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:01.320648+00:00"}
+{"example_id": "EHRNQ_0659", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:06.872937+00:00"}
+{"example_id": "EHRNQ_0659", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:08.876710+00:00"}
+{"example_id": "EHRNQ_0659", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:10.505935+00:00"}
+{"example_id": "EHRNQ_0659", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:13.908832+00:00"}
+{"example_id": "EHRNQ_0659", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:15.913353+00:00"}
+{"example_id": "EHRNQ_0659", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:16.446339+00:00"}
+{"example_id": "EHRNQ_0663", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:18.889039+00:00"}
+{"example_id": "EHRNQ_0663", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:20.893237+00:00"}
+{"example_id": "EHRNQ_0663", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:22.485296+00:00"}
+{"example_id": "EHRNQ_0663", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:25.085117+00:00"}
+{"example_id": "EHRNQ_0663", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:27.089276+00:00"}
+{"example_id": "EHRNQ_0663", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:27.656065+00:00"}
+{"example_id": "EHRNQ_0663", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:32.425215+00:00"}
+{"example_id": "EHRNQ_0663", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:34.429303+00:00"}
+{"example_id": "EHRNQ_0663", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:35.023163+00:00"}
+{"example_id": "EHRNQ_0667", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:40.614844+00:00"}
+{"example_id": "EHRNQ_0667", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:42.618735+00:00"}
+{"example_id": "EHRNQ_0667", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:43.147496+00:00"}
+{"example_id": "EHRNQ_0667", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:45.597130+00:00"}
+{"example_id": "EHRNQ_0667", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:47.601316+00:00"}
+{"example_id": "EHRNQ_0667", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:49.235246+00:00"}
+{"example_id": "EHRNQ_0667", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:52.673910+00:00"}
+{"example_id": "EHRNQ_0667", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:54.678137+00:00"}
+{"example_id": "EHRNQ_0667", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:20:59.926347+00:00"}
+{"example_id": "EHRNQ_0838", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:21:02.613122+00:00"}
+{"example_id": "EHRNQ_0838", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:21:04.617323+00:00"}
+{"example_id": "EHRNQ_0838", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:21:05.222329+00:00"}
+{"example_id": "EHRNQ_0838", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:21:08.999330+00:00"}
+{"example_id": "EHRNQ_0838", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:21:11.003465+00:00"}
+{"example_id": "EHRNQ_0838", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:21:11.600526+00:00"}
+{"example_id": "EHRNQ_0838", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:21:15.185917+00:00"}
+{"example_id": "EHRNQ_0838", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:21:17.189890+00:00"}
+{"example_id": "EHRNQ_0838", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:21:18.707975+00:00"}
+{"example_id": "EHRNQ_0855", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:21:24.371352+00:00"}
+{"example_id": "EHRNQ_0855", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:21:26.376436+00:00"}
+{"example_id": "EHRNQ_0855", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:21:26.975685+00:00"}
+{"example_id": "EHRNQ_0855", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:21:29.457922+00:00"}
+{"example_id": "EHRNQ_0855", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:21:31.462639+00:00"}
+{"example_id": "EHRNQ_0855", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:21:36.033810+00:00"}
+{"example_id": "EHRNQ_0855", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:21:38.664390+00:00"}
+{"example_id": "EHRNQ_0855", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:21:40.668131+00:00"}
+{"example_id": "EHRNQ_0855", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:21:44.209294+00:00"}
+{"example_id": "EHRNQ_0883", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:21:49.030507+00:00"}
+{"example_id": "EHRNQ_0883", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:21:51.035438+00:00"}
+{"example_id": "EHRNQ_0883", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:21:51.482007+00:00"}
+{"example_id": "EHRNQ_0883", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:21:55.226764+00:00"}
+{"example_id": "EHRNQ_0883", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:21:57.231048+00:00"}
+{"example_id": "EHRNQ_0883", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:22:01.638485+00:00"}
+{"example_id": "EHRNQ_0883", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:22:05.469119+00:00"}
+{"example_id": "EHRNQ_0883", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:22:07.473708+00:00"}
+{"example_id": "EHRNQ_0883", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:22:08.896622+00:00"}
+{"example_id": "EHRNQ_0910", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:22:13.492268+00:00"}
+{"example_id": "EHRNQ_0910", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:22:15.496501+00:00"}
+{"example_id": "EHRNQ_0910", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:22:17.160885+00:00"}
+{"example_id": "EHRNQ_0910", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:22:19.631342+00:00"}
+{"example_id": "EHRNQ_0910", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:22:21.635369+00:00"}
+{"example_id": "EHRNQ_0910", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:22:26.303387+00:00"}
+{"example_id": "EHRNQ_0910", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:22:28.730845+00:00"}
+{"example_id": "EHRNQ_0910", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:22:30.734983+00:00"}
+{"example_id": "EHRNQ_0910", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:22:34.333407+00:00"}
+{"example_id": "EHRNQ_0950", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:22:36.970834+00:00"}
+{"example_id": "EHRNQ_0950", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:22:38.974955+00:00"}
+{"example_id": "EHRNQ_0950", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:22:40.497578+00:00"}
+{"example_id": "EHRNQ_0950", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:22:45.173962+00:00"}
+{"example_id": "EHRNQ_0950", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:22:47.178270+00:00"}
+{"example_id": "EHRNQ_0950", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:22:48.514651+00:00"}
+{"example_id": "EHRNQ_0950", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:22:54.192946+00:00"}
+{"example_id": "EHRNQ_0950", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:22:56.197183+00:00"}
+{"example_id": "EHRNQ_0950", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:22:57.051821+00:00"}
+{"example_id": "EHRNQ_0956", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:23:01.585519+00:00"}
+{"example_id": "EHRNQ_0956", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:23:03.589519+00:00"}
+{"example_id": "EHRNQ_0956", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:23:05.142527+00:00"}
+{"example_id": "EHRNQ_0956", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:23:09.574588+00:00"}
+{"example_id": "EHRNQ_0956", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:23:11.578914+00:00"}
+{"example_id": "EHRNQ_0956", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:23:12.915544+00:00"}
+{"example_id": "EHRNQ_0956", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:23:18.384469+00:00"}
+{"example_id": "EHRNQ_0956", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:23:20.389447+00:00"}
+{"example_id": "EHRNQ_0956", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:23:21.000227+00:00"}
+{"example_id": "EHRNQ_0961", "arm": "A", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:23:24.451554+00:00"}
+{"example_id": "EHRNQ_0961", "arm": "A", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:23:26.455468+00:00"}
+{"example_id": "EHRNQ_0961", "arm": "A", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:23:28.036148+00:00"}
+{"example_id": "EHRNQ_0961", "arm": "B", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:23:30.651778+00:00"}
+{"example_id": "EHRNQ_0961", "arm": "B", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:23:32.655639+00:00"}
+{"example_id": "EHRNQ_0961", "arm": "B", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:23:34.145827+00:00"}
+{"example_id": "EHRNQ_0961", "arm": "C", "category": "FACTUAL_ERROR", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:23:36.670229+00:00"}
+{"example_id": "EHRNQ_0961", "arm": "C", "category": "INCOMPLETE_REASONING", "label": "NOT_FLAG", "source": "local_rule_no_rationale", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:23:38.674170+00:00"}
+{"example_id": "EHRNQ_0961", "arm": "C", "category": "FABRICATED_SOURCE", "label": "NOT_FLAG", "model": "openai/gpt-oss-120b", "timestamp_utc": "2026-10-28T19:23:40.377297+00:00"}

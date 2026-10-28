@@ -1,0 +1,70 @@
+{
+  "evaluation": "Arm B/C compact sensitivity v1 scored against pilot gold mapping",
+  "gold_mapping_rows": 50,
+  "arm_A_original_summary": {
+    "scorable": 30,
+    "correct": 21,
+    "accuracy_among_scorable": 0.7,
+    "coverage_of_pilot": 0.6,
+    "correct_over_all_pilot": 0.42
+  },
+  "arms_B_C": [
+    {
+      "arm": "B",
+      "gold_examples": 50,
+      "latest_arm_records": 30,
+      "successful_generations": 30,
+      "scorable": 30,
+      "correct": 19,
+      "incorrect": 11,
+      "unscorable": 0,
+      "accuracy_among_scorable": 0.6333333333333333,
+      "coverage_of_gold_examples": 0.6,
+      "correct_over_all_gold_examples": 0.38,
+      "prediction_distribution": {
+        "C": 5,
+        "A": 5,
+        "B": 12,
+        "D": 3,
+        "E": 5
+      }
+    },
+    {
+      "arm": "C",
+      "gold_examples": 50,
+      "latest_arm_records": 30,
+      "successful_generations": 30,
+      "scorable": 30,
+      "correct": 19,
+      "incorrect": 11,
+      "unscorable": 0,
+      "accuracy_among_scorable": 0.6333333333333333,
+      "coverage_of_gold_examples": 0.6,
+      "correct_over_all_gold_examples": 0.38,
+      "prediction_distribution": {
+        "C": 8,
+        "A": 3,
+        "B": 8,
+        "D": 5,
+        "E": 6
+      }
+    }
+  ],
+  "matched_A_B_C_examples": 30,
+  "matched_accuracy": {
+    "A": 0.7,
+    "B": 0.6333333333333333,
+    "C": 0.6333333333333333
+  },
+  "matched_correctness_changes": {
+    "B_vs_A_net_correct_change": -2,
+    "C_vs_A_net_correct_change": -2,
+    "C_vs_B_net_correct_change": 0
+  },
+  "limitations": [
+    "Multiple-choice correctness only; not an independent hallucination evaluation.",
+    "Generated outputs were parsed and scored automatically; no independent clinical review was performed.",
+    "Arm A metrics are reused from the original scoring artifacts and were not rerun.",
+    "Matched comparisons exclude examples without scorable predictions in all three arms."
+  ]
+}

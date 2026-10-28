@@ -1,0 +1,17 @@
+{
+  "example_id": "EHRNQ_0961",
+  "hallucination_categories": {
+    "FABRICATED_SOURCE": {
+      "score": 1,
+      "evidence": "The answer does not cite any external source; it only refers to the provided passage, so no fabricated source is present."
+    },
+    "FACTUAL_ERROR": {
+      "score": 1,
+      "evidence": "The rationale accurately reflects the passage, which states the patient was admitted for observation overnight after a generalized seizure."
+    },
+    "INCOMPLETE_REASONING": {
+      "score": 1,
+      "evidence": "The reasoning directly connects the seizure event to the observation admission, matching the evidence without missing logical steps."
+    }
+  }
+}

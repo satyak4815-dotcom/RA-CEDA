@@ -1,0 +1,122 @@
+{
+  "method": "Prometheus absolute grading with inverted category-quality scores",
+  "source_notes_only": true,
+  "n_examples": 5,
+  "n_category_judgments": 15,
+  "n_parsed": 11,
+  "n_unparsed": 4,
+  "flag_threshold": 4,
+  "calibrated": false,
+  "examples": [
+    {
+      "example_id": "EHRNQ_0103",
+      "arm": "B",
+      "predicted_choice": "B",
+      "gold_choice": "E",
+      "correct": false,
+      "category_scores": {
+        "FACTUAL_ERROR": null,
+        "INCOMPLETE_REASONING": 1,
+        "FABRICATED_SOURCE": 1
+      },
+      "category_presence_scores": {
+        "FACTUAL_ERROR": null,
+        "INCOMPLETE_REASONING": 5,
+        "FABRICATED_SOURCE": 5
+      },
+      "category_status": {
+        "FACTUAL_ERROR": "unparsed",
+        "INCOMPLETE_REASONING": "likely_present",
+        "FABRICATED_SOURCE": "likely_present"
+      }
+    },
+    {
+      "example_id": "EHRNQ_0409",
+      "arm": "B",
+      "predicted_choice": "B",
+      "gold_choice": "E",
+      "correct": false,
+      "category_scores": {
+        "FACTUAL_ERROR": 1,
+        "INCOMPLETE_REASONING": 1,
+        "FABRICATED_SOURCE": 1
+      },
+      "category_presence_scores": {
+        "FACTUAL_ERROR": 5,
+        "INCOMPLETE_REASONING": 5,
+        "FABRICATED_SOURCE": 5
+      },
+      "category_status": {
+        "FACTUAL_ERROR": "likely_present",
+        "INCOMPLETE_REASONING": "likely_present",
+        "FABRICATED_SOURCE": "likely_present"
+      }
+    },
+    {
+      "example_id": "EHRNQ_0961",
+      "arm": "B",
+      "predicted_choice": "D",
+      "gold_choice": "C",
+      "correct": false,
+      "category_scores": {
+        "FACTUAL_ERROR": 1,
+        "INCOMPLETE_REASONING": 5,
+        "FABRICATED_SOURCE": 5
+      },
+      "category_presence_scores": {
+        "FACTUAL_ERROR": 5,
+        "INCOMPLETE_REASONING": 1,
+        "FABRICATED_SOURCE": 1
+      },
+      "category_status": {
+        "FACTUAL_ERROR": "likely_present",
+        "INCOMPLETE_REASONING": "below_threshold",
+        "FABRICATED_SOURCE": "below_threshold"
+      }
+    },
+    {
+      "example_id": "EHRNQ_0663",
+      "arm": "B",
+      "predicted_choice": "B",
+      "gold_choice": "D",
+      "correct": false,
+      "category_scores": {
+        "FACTUAL_ERROR": 1,
+        "INCOMPLETE_REASONING": null,
+        "FABRICATED_SOURCE": 1
+      },
+      "category_presence_scores": {
+        "FACTUAL_ERROR": 5,
+        "INCOMPLETE_REASONING": null,
+        "FABRICATED_SOURCE": 5
+      },
+      "category_status": {
+        "FACTUAL_ERROR": "likely_present",
+        "INCOMPLETE_REASONING": "unparsed",
+        "FABRICATED_SOURCE": "likely_present"
+      }
+    },
+    {
+      "example_id": "EHRNQ_0516",
+      "arm": "B",
+      "predicted_choice": "D",
+      "gold_choice": "B",
+      "correct": false,
+      "category_scores": {
+        "FACTUAL_ERROR": 1,
+        "INCOMPLETE_REASONING": null,
+        "FABRICATED_SOURCE": null
+      },
+      "category_presence_scores": {
+        "FACTUAL_ERROR": 5,
+        "INCOMPLETE_REASONING": null,
+        "FABRICATED_SOURCE": null
+      },
+      "category_status": {
+        "FACTUAL_ERROR": "likely_present",
+        "INCOMPLETE_REASONING": "unparsed",
+        "FABRICATED_SOURCE": "unparsed"
+      }
+    }
+  ]
+}

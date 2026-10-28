@@ -1,0 +1,17 @@
+{
+  "example_id": "EHRNQ_0409",
+  "hallucination_categories": {
+    "FACTUAL_ERROR": {
+      "score": 5,
+      "evidence": "Passage states hematocrit nadir was 30.7 at discharge, not 31.1 as claimed."
+    },
+    "INCOMPLETE_REASONING": {
+      "score": 4,
+      "evidence": "Rationale asserts that 30.7 supports choice B (31.1) without explaining the discrepancy, showing a missing logical link."
+    },
+    "FABRICATED_SOURCE": {
+      "score": 1,
+      "evidence": "All cited information comes from the provided passages; no invented source."
+    }
+  }
+}

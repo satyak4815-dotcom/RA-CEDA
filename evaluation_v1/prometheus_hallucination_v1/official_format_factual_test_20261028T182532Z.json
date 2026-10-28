@@ -1,0 +1,8 @@
+{
+  "example_id": "EHRNQ_0103",
+  "category": "FACTUAL_ERROR",
+  "quality_score": 1,
+  "category_presence_score": 5,
+  "raw_judgment": "The response contains a clear, serious factual error. The source notes indicate that the patient has a sensitivity or allergy to nuts, which is correctly identified in the reference answer. However, the response incorrectly asserts that the patient has an allergy to latex. This is a significant error as it contradicts the information provided in the source notes. The response does not provide any evidence to support the claim about latex allergy, and it fails to recognize the correct allergy mentioned in the source notes. Therefore, the response does not meet the criteria for factual accuracy as outlined in the score rubric. So the overall score is 1. [RESULT] 1",
+  "calibrated": false
+}

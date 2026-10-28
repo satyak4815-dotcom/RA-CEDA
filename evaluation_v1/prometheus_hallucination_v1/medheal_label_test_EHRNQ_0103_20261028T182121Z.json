@@ -1,0 +1,9 @@
+{
+  "example_id": "EHRNQ_0103",
+  "predicted_choice": "B",
+  "gold_choice": "E",
+  "method": "multi_label_classification_pilot",
+  "labels": null,
+  "parse_status": "failed",
+  "raw_judgment": "The generated answer incorrectly identifies the patient's allergy as latex, which is not mentioned in the discharge summary. The evidence clearly states that the patient has a sensitivity to nuts, not latex. This misinterpretation of the evidence leads to an incomplete reasoning process, as the answer does not accurately reflect the patient's documented allergies. The answer also fails to consider"
+}

@@ -1,0 +1,23 @@
+{
+  "example_id": "EHRNQ_0103",
+  "predicted_choice": "B",
+  "gold_choice": "E",
+  "categories": {
+    "FACTUAL_ERROR": {
+      "quality_score": 1,
+      "category_presence_score": 5,
+      "raw_judgment": "The response provided is incorrect as it does not align with the clinical evidence presented in the source notes. The source notes clearly state that the patient has an allergy to 'Nut Flavor', which is a specific type of nut allergy. However, the response incorrectly states that the patient has an allergy to 'latex'. This is a clear factual error, as the source notes do not mention any latex allergy. The response does not provide any evidence to support the claim of a latex allergy, and it fails to address the correct allergy mentioned in the source notes. Therefore, the response does not meet the criteria for a correct answer, and it is evident that the response contains a significant factual error. So the overall score is 1. [RESULT] 1"
+    },
+    "INCOMPLETE_REASONING": {
+      "quality_score": null,
+      "category_presence_score": null,
+      "raw_judgment": "The response provided is incorrect as it does not accurately reflect the patient's sensitivities or allergies as mentioned in the discharge summary. The source notes clearly state that the patient has an allergy to 'Nut Flavor', which is a specific type of nut allergy. However, the response incorrectly states that the patient has an allergy to latex. This misinterpretation of clinical information is a clear example of incomplete reasoning. The response does not support the selected answer with evidence from the source notes, and it fails to recognize the specific type of nut allergy mentioned in the discharge summary. Therefore, the response does not meet the criteria for a correct answer in this category. [RESULT] N"
+    },
+    "FABRICATED_SOURCE": {
+      "quality_score": 5,
+      "category_presence_score": 1,
+      "raw_judgment": "The response provided is incorrect as it does not align with the clinical evidence presented in the source notes. The source notes clearly state that the patient has an allergy to 'Nut Flavor', which is a specific type of nut allergy. However, the response incorrectly asserts that the patient has an allergy to 'latex'. This is a clear fabrication, as there is no evidence in the source notes to support this claim. The response does not provide any evidence from the source notes to support its assertion, which is a critical aspect of the evaluation criteria. Therefore, the response does not meet the requirements of the score rubric, which demands clear, serious evidence of the category. The response is not supported by the evidence, and it is a clear fabrication. So the overall score is 5. [RESULT] 5"
+    }
+  },
+  "calibrated": false
+}

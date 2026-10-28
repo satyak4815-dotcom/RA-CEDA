@@ -1,0 +1,86 @@
+{
+  "source_checkpoint": "/kaggle/working/RA-CEDA/evaluation_v1/groq_gpt_oss_hallucination_v1/actual_ABC_category_labels_v2.jsonl",
+  "summary_file": "/kaggle/working/RA-CEDA/evaluation_v1/groq_gpt_oss_hallucination_v1/actual_ABC_labels_summary_90.jsonl",
+  "unique_examples": 30,
+  "rows_written": 90,
+  "category_label_records": 270,
+  "missing_expected_category_labels": 0,
+  "arms": {
+    "A": {
+      "FACTUAL_ERROR": {
+        "flags": 1,
+        "not_flags": 29,
+        "scored": 30,
+        "flag_percentage": 3.33
+      },
+      "INCOMPLETE_REASONING": {
+        "flags": 0,
+        "not_flags": 30,
+        "scored": 30,
+        "flag_percentage": 0.0
+      },
+      "FABRICATED_SOURCE": {
+        "flags": 2,
+        "not_flags": 28,
+        "scored": 30,
+        "flag_percentage": 6.67
+      },
+      "combined": {
+        "examples_with_any_flag": 2,
+        "fully_scored_examples": 30,
+        "total_examples": 30
+      }
+    },
+    "B": {
+      "FACTUAL_ERROR": {
+        "flags": 1,
+        "not_flags": 29,
+        "scored": 30,
+        "flag_percentage": 3.33
+      },
+      "INCOMPLETE_REASONING": {
+        "flags": 1,
+        "not_flags": 29,
+        "scored": 30,
+        "flag_percentage": 3.33
+      },
+      "FABRICATED_SOURCE": {
+        "flags": 1,
+        "not_flags": 29,
+        "scored": 30,
+        "flag_percentage": 3.33
+      },
+      "combined": {
+        "examples_with_any_flag": 1,
+        "fully_scored_examples": 30,
+        "total_examples": 30
+      }
+    },
+    "C": {
+      "FACTUAL_ERROR": {
+        "flags": 1,
+        "not_flags": 29,
+        "scored": 30,
+        "flag_percentage": 3.33
+      },
+      "INCOMPLETE_REASONING": {
+        "flags": 1,
+        "not_flags": 29,
+        "scored": 30,
+        "flag_percentage": 3.33
+      },
+      "FABRICATED_SOURCE": {
+        "flags": 2,
+        "not_flags": 28,
+        "scored": 30,
+        "flag_percentage": 6.67
+      },
+      "combined": {
+        "examples_with_any_flag": 2,
+        "fully_scored_examples": 30,
+        "total_examples": 30
+      }
+    }
+  },
+  "important_note": "Automated exploratory labels; not human-validated. INCOMPLETE_REASONING labels for missing rationales may have been assigned by a local rule rather than by the model."
+}

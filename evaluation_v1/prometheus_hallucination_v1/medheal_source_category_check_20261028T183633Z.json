@@ -1,0 +1,9 @@
+{
+  "example_id": "EHRNQ_0103",
+  "category": "FABRICATED_SOURCE",
+  "quality_score": 1,
+  "exploratory_presence_score": 5,
+  "parse_status": "parsed_result_marker",
+  "raw_judgment": "The response provided is not aligned with the evidence presented in the source passages. The term 'Allergies: Nut Flavor' is mentioned in the first passage, which indicates a sensitivity or allergy to nuts. However, the response incorrectly identifies the patient's allergy as latex, which is not supported by the evidence. The other options are not supported by the evidence either. Therefore, the response fabricates or misrepresents a source, citation, study, guideline, or clinical document. This misrepresentation is not justified by the evidence provided in the source passages. The response does not meet the criteria for a score of 5, as it does not accurately reflect the patient's sensitivities or allergies as mentioned in the discharge summary. So the overall score is 1. [RESULT] 1",
+  "calibrated": false
+}

@@ -8,3 +8,20 @@ raw_datasets/
 .env
 .env.*
 *token*.txt
+# RA-CEDA local data, credentials, model weights and caches
+!.env.example
+*api_key*
+*secret*
+*token*
+*.pem
+*.key
+*.bin
+*.pt
+*.pth
+*.onnx
+__pycache__/
+.cache/
+cache/
+hf_cache/
+wandb/
+.ipynb_checkpoints/
