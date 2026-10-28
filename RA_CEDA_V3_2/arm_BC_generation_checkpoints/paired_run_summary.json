@@ -1,0 +1,15 @@
+{
+  "saved_records": 1,
+  "expected_records": 60,
+  "successful_generations": 0,
+  "valid_json_outputs": 0,
+  "invalid_json_outputs": 0,
+  "errors": 1,
+  "hit_token_cap": 0,
+  "complete_valid_pairs": 0,
+  "valid_pair_choice_changes": 0,
+  "valid_pair_choice_agreements": 0,
+  "status": "incomplete_or_errors",
+  "pair_results": [],
+  "updated_at_utc": "2026-10-28T14:19:05.444841+00:00"
+}
