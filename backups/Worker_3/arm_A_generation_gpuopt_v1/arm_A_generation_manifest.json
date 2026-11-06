@@ -1,0 +1,51 @@
+{
+  "worker": "Worker_3",
+  "arm": "A",
+  "run_status": "incomplete",
+  "model_id": "Qwen/Qwen3-8B",
+  "model_revision": "b968826d9c46dd6066d109eabc6255188de91218",
+  "prompt_file": "/kaggle/working/RA_CEDA_V3_2/Worker_3/prompt_build_v1/arm_A_prompts.jsonl",
+  "prompt_count": 304,
+  "unique_prompt_ids": 304,
+  "successful_answer_count": 303,
+  "unresolved_count": 1,
+  "json_recovered_count_this_run": 90,
+  "failed_count_this_run": 1,
+  "generation_settings": {
+    "do_sample": false,
+    "num_beams": 1,
+    "use_cache": true,
+    "primary_prefill_chunk": 512,
+    "primary_max_new_tokens": 160,
+    "json_recovery_max_new_tokens": 512,
+    "oom_recovery_profiles": [
+      {
+        "chunk_size": 256,
+        "max_new_tokens": 128
+      },
+      {
+        "chunk_size": 128,
+        "max_new_tokens": 96
+      },
+      {
+        "chunk_size": 64,
+        "max_new_tokens": 64
+      }
+    ],
+    "json_recovery_oom_chunks": [
+      256,
+      128,
+      64
+    ],
+    "max_input_tokens": 8192
+  },
+  "run_started_utc": "2026-11-06T15:43:08.574536+00:00",
+  "run_finished_utc": "2026-11-06T19:25:37.657361+00:00",
+  "elapsed_seconds_this_run": 13349.08,
+  "output_files": {
+    "answers": "/kaggle/working/RA_CEDA_V3_2/Worker_3/arm_A_generation_gpuopt_v1/arm_A_answers.jsonl",
+    "attempts": "/kaggle/working/RA_CEDA_V3_2/Worker_3/arm_A_generation_gpuopt_v1/arm_A_generation_attempts.jsonl",
+    "unresolved": "/kaggle/working/RA_CEDA_V3_2/Worker_3/arm_A_generation_gpuopt_v1/arm_A_unresolved.jsonl",
+    "manifest": "/kaggle/working/RA_CEDA_V3_2/Worker_3/arm_A_generation_gpuopt_v1/arm_A_generation_manifest.json"
+  }
+}

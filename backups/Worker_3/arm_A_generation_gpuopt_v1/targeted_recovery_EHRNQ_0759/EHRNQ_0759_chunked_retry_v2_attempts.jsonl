@@ -1,0 +1,2 @@
+{"example_id": "EHRNQ_0759", "attempt_number": 1, "attempt_type": "targeted_chunked_256", "chunk_size": 256, "token_budget": 1024, "event": "started", "timestamp_utc": "2026-11-06T19:34:02.569329+00:00"}
+{"example_id": "EHRNQ_0759", "attempt_number": 1, "attempt_type": "targeted_chunked_256", "chunk_size": 256, "token_budget": 1024, "event": "finished", "status": "generation_success", "input_tokens": 6619, "generated_tokens": 1024, "generation_seconds": 225.461, "peak_memory_gib": 4.0138, "finished_utc": "2026-11-06T19:37:48.030464+00:00"}
