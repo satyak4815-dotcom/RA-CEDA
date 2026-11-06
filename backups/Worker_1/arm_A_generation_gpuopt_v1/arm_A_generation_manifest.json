@@ -1,0 +1,37 @@
+{
+  "experiment": "RA-CEDA V3.2",
+  "worker": "Worker_1",
+  "arm": "A",
+  "model_id": "Qwen/Qwen3-8B",
+  "prompt_file": "/kaggle/working/RA_CEDA_V3_2/Worker_1/prompt_build_v1/arm_A_prompts.jsonl",
+  "output_directory": "/kaggle/working/RA_CEDA_V3_2/Worker_1/arm_A_generation_gpuopt_v1",
+  "total_prompts": 304,
+  "successful_answers": 304,
+  "unresolved_questions": 0,
+  "skipped_existing_checkpoints": 49,
+  "processed_this_run": 255,
+  "new_successes_this_run": 255,
+  "new_failures_this_run": 0,
+  "primary_max_new_tokens": 160,
+  "json_retry_max_new_tokens": 512,
+  "max_input_tokens": 8192,
+  "primary_prefill_chunk": 512,
+  "oom_recovery_profiles": [
+    {
+      "chunk_size": 256,
+      "max_new_tokens": 128
+    },
+    {
+      "chunk_size": 128,
+      "max_new_tokens": 96
+    },
+    {
+      "chunk_size": 64,
+      "max_new_tokens": 64
+    }
+  ],
+  "do_sample": false,
+  "num_beams": 1,
+  "use_cache": true,
+  "timestamp_utc": "2026-11-06T16:49:13.512903+00:00"
+}
