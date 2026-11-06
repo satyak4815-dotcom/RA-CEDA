@@ -1,0 +1,74 @@
+RA-CEDA V3_2
+GPU-OPTIMIZED QWEN3-8B GENERATION
+OUTPUT INTEGRITY AUDIT
+============================================================
+
+Experiment: generation_qwen3_8b_gpuopt_v1
+
+ANSWER COVERAGE
+---------------
+Expected questions: 50
+Answer records: 50
+Unique answer IDs: 50
+Duplicate IDs: 0
+Missing IDs: 0
+Unexpected IDs: 0
+
+CHOICE DISTRIBUTION
+-------------------
+choice_A: 8
+choice_B: 9
+choice_C: 11
+choice_D: 8
+choice_E: 13
+UNCERTAIN: 1
+
+Explicit A-E selections: 49
+
+FIELD INTEGRITY
+---------------
+Field/status errors: 0
+
+GENERATION ATTEMPTS
+-------------------
+Total attempts: 53
+Successful attempts: 50
+Parse-error attempts: 3
+Recovered questions: 3
+
+Recovered IDs:
+EHRNQ_0490
+EHRNQ_0550
+EHRNQ_0573
+
+TOKEN BOUNDARY
+--------------
+EHRNQ_0724 generated exactly 160 tokens,
+equal to its configured output budget.
+
+The JSON object is syntactically complete.
+Natural termination versus output-budget termination
+cannot be established because EOS/finish-reason metadata
+was not saved.
+
+GENERATION STABILITY
+--------------------
+Reported CUDA OOM errors: 0
+Reported runtime failures: 0
+Unresolved questions: 0
+
+INTERPRETATION
+--------------
+This audit establishes generation output coverage,
+uniqueness, and structural integrity.
+
+It does not establish gold-answer accuracy,
+clinical factual correctness, or faithfulness.
+
+The prompt differs from the earlier baseline prompt.
+This experiment must remain separately identified.
+
+Evaluation status: NOT YET SCORED AGAINST GOLD LABELS.
+
+Audit status: COMPLETED
+============================================================
